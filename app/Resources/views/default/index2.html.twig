@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+   
+    
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{path('post10')}}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+          
+        {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}     
+         <li><a href="{{path('fos_user_security_logout')}}"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>       
+        {% else %}
+         <li><a href="{{path('fos_user_security_login')}}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        {% endif %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{path('newAction')}}"><span class="glyphicon glyphicon-pencil"></span> Edit</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Blog</h1>      
+    <p>Just me...</p>
+  </div>
+</div>
+
+      
+      
+
+
+
+<div class="container bg-3 text-center">
+
+<div class="post-preview">
+    {% for article in posts %}
+        <hr>
+            <a href="{{ path('postsearch',{'id': article.id}) }}">
+              <h2 class="post-title">
+                {{article.title}}
+              </h2>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">{{article.username}}</a>
+              on September 18, 2017
+            </p>
+       
+            
+        </hr>
+    {% endfor %}
+</div>
+
+</div>
+    
+<footer class="container-fluid text-center">
+  <p>
+     
+</p>
+</footer>
+
+    
+   
+{% endblock %}
+

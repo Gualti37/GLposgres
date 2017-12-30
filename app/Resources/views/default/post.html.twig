@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{path('post10')}}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container bg-3 text-center">
+
+<div class="post-preview">
+    
+        <hr>
+            
+              <h1 class="post-title">
+                {{post.title}}
+              </h1>
+            <p class="post-meta">Posted by
+              <a href="#"> {{post.username}}</a>
+              on {{post.published|date('Y-m-d')}}
+            </p>
+            <p>{{post.content}}</p>
+             <div> <a href="{{ path('postupdate',{'id': post.id}) }}">{{'update'}}</a></div>
+             <div> <a href="{{ path('postdelete',{'id': post.id}) }}">{{'delete'}}</a></div>
+        </hr>
+    
+</div>
+
+</div>
+  
+
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+   
+
+  </div>
+</div><br><br>
+
+<footer class="container-fluid">
+  <p>
+   
+</p>
+</footer>   
+    
+    
+    
+    
+{% endblock %}
