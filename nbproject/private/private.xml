@@ -9,18 +9,24 @@
             <file>file:/Users/gualtierolugato/project23Nov/app/config/routing_dev.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/security.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/services.yml</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/base2.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config_prod.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/package.json</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/default/index2.html.twig</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/register_content.html.twig</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/check_email.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Entity/Post.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/AppCache.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config_dev.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/bin/console</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/email.txt.twig</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/default/flash-messages.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/base.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Controller/CrudController.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/AppBundle.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Repository/UserRepository.php</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Security/login_content.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Repository/PostRepository.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/parameters.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/routing.yml</file>
@@ -28,8 +34,11 @@
             <file>file:/Users/gualtierolugato/project23Nov/app/AppKernel.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/web/app_dev.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/composer.json</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Security/login.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Controller/BlogBundle.php</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/confirmed.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Entity/User.php</file>
+            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/layout.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/parameters.yml.dist</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/default/add.html.twig</file>
         </group>
