@@ -1,11 +1,14 @@
-{% extends 'base2.html.twig' %}
+{% extends "base.html.twig" %}
 
 {% block body %}
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                {% block fos_user_content %}{% endblock %}
-            </div>
-        </div>
-    </div>
-{% endblock %}
+{% if app.request.hasPreviousSession %} {% for type, messages in app.session.flashbag.all() %} {% for message in messages
+%}
+<div class="flash-{{ type }}">
+    {{ message }}
+</div>
+{% endfor %} {% endfor %} {% endif %}
+
+<div>
+    {% block fos_user_content %} {% endblock fos_user_content %}
+</div>
+    {% endblock%}
