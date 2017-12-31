@@ -20,3 +20,9 @@ Choix techniques :
 - Deux controleurs : BlogBundle & CrudController
 - Gestion des exceptions (alert)
 
+2 utilisateurs sont inscrits dans la base postgres online :
+username: user1 
+password : dede1
+
+username: user2
+password : dede2
