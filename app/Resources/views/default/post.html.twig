@@ -38,8 +38,8 @@
               on {{post.published|date('Y-m-d')}}
             </p>
             <p>{{post.content}}</p>
-             <div> <a href="{{ path('postupdate',{'id': post.id}) }}">{{'update'}}</a></div>
-             <div> <a href="{{ path('postdelete',{'id': post.id}) }}">{{'delete'}}</a></div>
+             <div> <a href="{{ path('postupdate',{'id': post.id}) }}"class="btn btn-primary">{{'update'}}</a>
+             <a href="{{ path('postdelete',{'id': post.id}) }}"class="btn btn-primary">{{'delete'}}</a></div>
         </hr>
     
 </div>

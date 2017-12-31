@@ -2,33 +2,108 @@
 
 
 {% block body %}
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{path('post10')}}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
 
-
-
+ 
 {{ form_start(form) }}
  
     {{ form_errors(form) }}
+    
+   
     <div class="container center_div">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-2">
+        <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          
          <h1>Add Post</h1></br>
-    <div>
+    <div class="col-xs-push-12 " style="background-color: #eeea  ">
+    <div class="col-xs-push-12 ">
         {{ form_label(form.title) }}
         {{ form_errors(form.title) }}
         {{ form_widget(form.title) }}
     </div>
     <br/>
-    <div>
-        {{ form_row(form.content) }}
+    
+    <div class="form-group">
+        
+       {{ form_row(form.content) }}
     </div>
+    </div>
+    
+    <style>
+        
+   
+
+        body {
+
+
+            padding-bottom: 40px;
+
+            background-color: #eeea;
+
+        }
+        
+        
+    .form-control:focus {
+    z-index: 2;
+    }
+    
+    .form_widget, .form_label {
+
+            position: relative;
+
+            height: 400px;
+
+            -webkit-box-sizing: border-box;
+
+            -moz-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+            padding: 10px;
+
+            font-size: 16px;
+
+        }
+        
+        
+        
+        
+    </style>  
+ 
+   
+    
     <br/>
-    <div>
+    <div class="btn btn-primary">
         {{ form_widget(form.save) }}
     </div>
+    
     </div>
     </div>
     </div>
     {{ form_end(form) }}
+    
+    
+    
+  
 
-
+   
 {% endblock %}

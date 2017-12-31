@@ -1,19 +1,121 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% block fos_user_content %}
+
 {% trans_default_domain 'FOSUserBundle' %}
 
-<div class="container center_div">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-         <h1>Register</h1>
-{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    {{ form_widget(form) }}
-    
-    
-    <div class="form-group">
+
+
+
+<form action="{{ path('fos_user_registration_register') }}" method="POST"
+class="form-signin">
+    <h1> Register</h1></br>
+    {{ form_errors(form) }}
     <div>
-        <input class="btn btn-primary" type="submit" value="{{ 'registration.submit'|trans }}" />
+        {{ form_label(form.email,'Email')}}
+        {{ form_widget(form.email,{'attr': {'placeholder': ''}}) }}
+        {{ form_errors(form.email) }}
     </div>
+    <div>
+        {{ form_label(form.username,"Username") }}
+        {{ form_widget(form.username,{'attr': {'placeholder': ''}}) }}
+        {{ form_errors(form.username) }}
     </div>
-        </div>
+    <div>
+        {{ form_label(form.plainPassword.first,"") }}
+        {{ form_widget(form.plainPassword.first,{'attr': {'placeholder': ''}}) }}
+        {{ form_errors(form.plainPassword.first) }}
     </div>
+    <div>
+        {{ form_label(form.plainPassword.second,"Confirmation") }}
+        {{ form_widget(form.plainPassword.second,{'attr': {'placeholder': ''}}) }}
+        {{ form_errors(form.plainPassword.second) }}
     </div>
-{{ form_end(form) }}
+   
+        {{ form_rest(form) }}
+    <div>
+        <input class="btn btn-lg btn-primary btn-block" type="submit" value="Register" />
+    </div>
+</form>
+
+
+{% endblock fos_user_content %}
+
+
+{% block stylesheets %}
+
+    <style>
+
+        body {
+
+
+            padding-bottom: 40px;
+
+           
+
+        }
+
+
+
+        .form-signin {
+
+            max-width: 500px;
+
+            padding: 5px;
+
+            margin: 0 auto;
+
+        }
+
+
+
+        .form-signin .form-signin-heading,
+
+        .form-signin .checkbox {
+
+            margin-bottom: 10px;
+
+        }
+
+
+        .form-signin .form-control {
+
+            position: relative;
+
+            height: auto;
+
+            -webkit-box-sizing: border-box;
+
+            -moz-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+            padding: 10px;
+
+            font-size: 16px;
+
+        }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+        .form-signin input[type="text"] {
+            margin-bottom: 20px;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: 20px;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"]{
+            margin-top:50px;
+        }
+
+    </style>
+
+{% endblock %}
