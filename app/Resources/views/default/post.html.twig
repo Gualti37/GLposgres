@@ -22,9 +22,8 @@
   </div>
 </nav>
 
-
-
-<div class="container bg-3 text-center">
+        <center>
+<div class="container bg-3">
 
 <div class="post-preview">
     
@@ -37,12 +36,15 @@
               <a href="#"> {{post.username}}</a>
               on {{post.published|date('Y-m-d')}}
             </p>
+            <div class ="container bg-3" text-right>
             <p>{{post.content}}</p>
+            </div>
              <div> <a href="{{ path('postupdate',{'id': post.id}) }}"class="btn btn-primary">{{'update'}}</a>
              <a href="{{ path('postdelete',{'id': post.id}) }}"class="btn btn-primary">{{'delete'}}</a></div>
         </hr>
     
 </div>
+        </center>
 
 </div>
   
