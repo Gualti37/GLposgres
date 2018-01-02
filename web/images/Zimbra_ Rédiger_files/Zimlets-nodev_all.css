@@ -1,0 +1,25 @@
+.Imgattachmail-panelIcon{background:url("/service/zimlet/com_zimbra_attachmail/attachmail.gif") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.AttachMailTabBox{background-color:#FDFCFA;border-right:1px solid #E0E0E0;}
+.AttachMailRowDiv{border-style:solid;border-width:1px 0;cursor:pointer;border-color:#E0E0E0;padding:3px 0;}
+.AttachMailSubject{font-weight:bold;font-size:13px;color:#2B2A2B;}
+.AttachMailFrom{font-weight:bold;font-size:11px;color:#2B2A2B;}
+.AttachMailFrag{overflow:hidden;color:gray;}
+.AttachMailList .Row-selected,.AttachMailList .Row-focused{border:none;}
+.ImgEmailZimletNavBarBG{background:url("/service/zimlet/com_zimbra_email/img/EmailZimletNavBar.png") repeat;}
+.EmailToolTipSlideText{position:relative;top:40%;font-size:12px;font-weight:bold;}
+.EmailToolTipSlideErrorColor{color:#8C0000;}
+.EmailToolTipSlideMsgColor{color:#666;}
+.ImgUnknownPerson_contact{background:url("/service/zimlet/com_zimbra_email/img/UnknownPerson_contact.gif") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgMail_icon{background:url("/service/zimlet/com_zimbra_email/img/mail_icon.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgCalendar_icon{background:url("/service/zimlet/com_zimbra_email/img/calendar_icon.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgConversation_icon{background:url("/service/zimlet/com_zimbra_email/img/ImgConversation.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.Img_available,.Img_unavailable,.Img_busy,.Img_dnd,.Img_onthephone,.Img_away,.Img_vacation,.Img_unknown{background:transparent no-repeat 0 0;width:12px;height:12px;overflow:hidden;margin-right:.5em;}
+.Img_available{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceAvailable.png");}
+.Img_unavailable,.Img_busy,.Img_dnd,.Img_onthephone{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceUnavailable.png");}
+.Img_away,.Img_vacation,.Img_unknown{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceBusy.png");}
+.ImgEmailZimlet_closeBtn{background:url("/service/zimlet/com_zimbra_email/img/EmailZimlet_closeBtn.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.EmailZimlet_veil{position:absolute;display:block;width:100%;height:100%;z-index:700;background:black;opacity:.2;zoom:1;cursor:pointer;top:0;left:0;}
+.ImgarchiveZimletIcon{background:url("/service/zimlet/com_zimbra_mailarchive/archiveZimletIcon.png") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.mailArchivePrefDialog{width:300px;overflow:hidden;}
+.Imgyemoticons-panelIcon{background:url("/service/zimlet/com_zimbra_ymemoticons/yemoticons.gif") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.ymemoticonsPrefDialog{width:200px;overflow:hidden;}

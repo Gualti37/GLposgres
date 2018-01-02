@@ -1,0 +1,3237 @@
+if(!window.com_zimbra_attachmail){
+com_zimbra_attachmail={}
+}
+a=com_zimbra_attachmail;
+a.label="Email Attacher";
+a.description="Attach email messages when composing a new message.";
+a.AttachMailZimlet_panel_label="Email Attacher";
+a.AttachMailZimlet_panel_tooltip='Adds an "Attach Mail" tab to the compose toolbar "Add Attachment" dialog.';
+a.AttachMailZimlet_tab_label="Mail";
+a.AttachMailZimlet_tab_button_search="Search";
+a.AttachMailZimlet_tab_button_view="View Message";
+delete a;
+if(!window.com_zimbra_attachmail){
+com_zimbra_attachmail={}
+}
+a=com_zimbra_attachmail;
+a.label="Email Attacher";
+a.description="Joignez des mails lorsque vous en r\u00e9digez un nouveau.";
+a.AttachMailZimlet_panel_label="Email Attacher";
+a.AttachMailZimlet_panel_tooltip='Ajoute une \u00e9tiquette "Joindre mail" \u00e0 la barre d\'outils de composition de la bo\u00eete de dialogue "Ajouter pi\u00e8ce jointe".';
+a.AttachMailZimlet_tab_label="Mail";
+a.AttachMailZimlet_tab_button_search="Rechercher";
+a.AttachMailZimlet_tab_button_view="Visualiser message";
+delete a;
+if(!window.com_zimbra_srchhighlighter){
+com_zimbra_srchhighlighter={}
+}
+a=com_zimbra_srchhighlighter;
+a.label="Search Highlighter";
+a.description="After a mail search, this Zimlet highlights Search terms with yellow color.";
+a.SearchHighlighterZimlet_MenuLabel="Clear Search Highlights";
+a.SearchHighlighterZimlet_ZimletError="Search Highlighter Zimlet Error:";
+delete a;
+if(!window.com_zimbra_srchhighlighter){
+com_zimbra_srchhighlighter={}
+}
+a=com_zimbra_srchhighlighter;
+a.label="Surligneur de recherche";
+a.description="Apr\u00e8s une recherche de mail, ce Zimlet surligne les termes de la recherche en jaune";
+a.SearchHighlighterZimlet_MenuLabel="\u00c9liminer Surligner la recherche";
+a.SearchHighlighterZimlet_ZimletError="Erreur surligneur de recherche Zimlet\u00a0:";
+delete a;
+if(!window.com_zimbra_mailarchive){
+com_zimbra_mailarchive={}
+}
+a=com_zimbra_mailarchive;
+a.label="Archive";
+a.description="One button click to move items to an archive folder for those who like a tidy Inbox.";
+a.archived="Archived";
+a.archivedFolderCreated="'Archive' folder Created";
+a.couldNotCreateArchivedFolder="Could not create 'Archive' folder";
+a.archiveZimlet_archiveFolderNotFound="Could not find 'Archive' folder";
+a.archiveZimletPrefsSaved="Archive folder preferences saved";
+a.archivePrefsTitle="Archive Preferences";
+a.archiveButtonToolTip="Move selected item(s) to Archive Folder";
+a.archiveHideDeleteButton="Delete Button";
+a.archiveHide="Hide";
+a.archiveShow="Show";
+a.archiveFolderPrefLabel="Archive Folder";
+a.archiveFolderBrowse="Browse...";
+a.archiveMustChooseFolder="You must choose an archive folder";
+a.archiveInvalidFolder="Invalid archive folder chosen";
+a.preferences="Preferences";
+a.sendAndArchiveButton="Send & Archive";
+a.sendAndArchiveToolTip="Send message and move replied-to message to Archive Folder";
+a.sendAndArchiveToolTipConv="Send message and move conversation to Archive Folder";
+a.sendAndArchiveLabel="Send and Archive";
+delete a;
+if(!window.com_zimbra_mailarchive){
+com_zimbra_mailarchive={}
+}
+a=com_zimbra_mailarchive;
+a.label="Archiver";
+a.description="D\u2019un simple clic, d\u00e9placez des objets vers un dossier d\u2019archivage (all\u00e9gez votre Bo\u00eete de r\u00e9ception).";
+a.archived="Archiv\u00e9";
+a.archivedFolderCreated="Le dossier d\u2019archivage a \u00e9t\u00e9 cr\u00e9\u00e9.";
+a.couldNotCreateArchivedFolder="Impossible de cr\u00e9er le dossier d\u2019archivage.";
+a.archiveZimlet_archiveFolderNotFound="Le dossier d\u2019archivage est introuvable.";
+a.archiveZimletPrefsSaved="Les pr\u00e9f\u00e9rences du dossier d\u2019archivage ont \u00e9t\u00e9 enregistr\u00e9es.";
+a.archivePrefsTitle="Pr\u00e9f\u00e9rences d\u2019archivage";
+a.archiveButtonToolTip="D\u00e9placer le ou les \u00e9l\u00e9ment(s) s\u00e9lectionn\u00e9(s) dans le dossier Archive";
+a.archiveHideDeleteButton="Bouton Supprimer";
+a.archiveHide="Masquer";
+a.archiveShow="Afficher";
+a.archiveFolderPrefLabel="Dossier d\u2019archivage";
+a.archiveFolderBrowse="Naviguer...";
+a.archiveMustChooseFolder="Vous devez s\u00e9lectionner un dossier d\u2019archivage";
+a.archiveInvalidFolder="Le dossier d\u2019archivage s\u00e9lectionn\u00e9 est incorrect.";
+a.preferences="Pr\u00e9f\u00e9rences";
+a.sendAndArchiveButton="Envoyer et archiver";
+a.sendAndArchiveToolTip="Envoyer ce mail et d\u00e9placer le mail de r\u00e9ponse dans le dossier d\u2019archivage";
+a.sendAndArchiveToolTipConv="Envoyer ce mail et d\u00e9placer la conversation dans le dossier d\u2019archivage";
+a.sendAndArchiveLabel="Envoyer et archiver";
+delete a;
+if(!window.com_zimbra_email){
+com_zimbra_email={}
+}
+a=com_zimbra_email;
+a.zimletLabel="Email Contact Details";
+a.description="Highlights and previews associated contact details for an email address.";
+a.preferencesSaved="Preferences Saved";
+a.emailZimletPreferences="Email Zimlet Preferences";
+a.label="Email";
+a.tooltip="Shows Email Zimlet's preferences";
+a.VERYSMALL="Very Small";
+a.SMALL="Small";
+a.MEDIUM="Medium";
+a.LARGE="Large";
+a.XL="XL";
+a["2XL"]="2XL";
+a.selectToolTipSize="Please select tool-tip's size:";
+a.rightClickForMoreOptions="Right click for more options";
+a.contact="Contact";
+a.close="Close";
+a.slideTooltip="Email Profile";
+a.slideMailTooltip="New Email";
+a.slideCalendarTooltip="New Appointment";
+a.slideChatTooltip="Chat";
+a.loading="Loading...";
+a.msg_available="Available";
+a.msg_unavailable="Unavailable";
+a.msg_busy="Busy";
+a.msg_away="Away";
+a.msg_dnd="Do not disturb";
+a.msg_onthephone="On the phone";
+a.msg_vacation="Vacation";
+a.msg_unknown="Unknown";
+a.postalAddress="{0} {1} {2} {3}";
+a.jobTitleDepartmentCompany="jobTitle,department,company";
+delete a;
+if(!window.com_zimbra_email){
+com_zimbra_email={}
+}
+a=com_zimbra_email;
+a.zimletLabel="D\u00e9tails contact mail";
+a.description="Souligne et donne un aper\u00e7u des d\u00e9tails contact associ\u00e9s \u00e0 une adresse mail.";
+a.preferencesSaved="Les pr\u00e9f\u00e9rences ont \u00e9t\u00e9 enregistr\u00e9es.";
+a.emailZimletPreferences="Pr\u00e9f\u00e9rences mail Zimlet";
+a.label="Adresse mail";
+a.tooltip="Affiche les pr\u00e9f\u00e9rences mail Zimlet";
+a.VERYSMALL="Tr\u00e8s petit";
+a.SMALL="Petit";
+a.MEDIUM="Moyen";
+a.LARGE="Grand";
+a.XL="XL";
+a["2XL"]="2XL";
+a.selectToolTipSize="Veuillez s\u00e9lectionner la taille de l'info-bulle\u00a0: ";
+a.rightClickForMoreOptions="Cliquez avec le bouton droit de la souris pour plus d'options";
+a.contact="Contact";
+a.close="Fermer";
+a.slideTooltip="Profil de messagerie";
+a.slideMailTooltip="Nouveau mail";
+a.slideCalendarTooltip="Nouveau rendez-vous";
+a.slideChatTooltip="Chat";
+a.loading="Chargement...";
+a.msg_available="Disponible";
+a.msg_unavailable="Indisponible";
+a.msg_busy="Occup\u00e9";
+a.msg_away="Absent";
+a.msg_dnd="Ne pas d\u00e9ranger";
+a.msg_onthephone="Au t\u00e9l\u00e9phone";
+a.msg_vacation="Cong\u00e9";
+a.msg_unknown="Inconnu";
+a.jobTitleDepartmentCompany="jobTitle,department,company";
+delete a;
+if(!window.com_zimbra_ymemoticons){
+com_zimbra_ymemoticons={}
+}
+a=com_zimbra_ymemoticons;
+a.label="Yahoo! Emoticons";
+a.description="Displays Yahoo! Emoticons images in email messages.";
+a.yahooEmoticons="Yahoo! Emoticons";
+a.temporarilyDisableInMail="Temporarily disable in Mail";
+a.preferences="Preferences";
+a.enableInMail="Enable Emoticons In Mail";
+a.yahoo_emoticons_pref_dialog_title="Yahoo! Emoticons Preferences";
+a.emoticon_happy="happy";
+a.emoticon_sad="sad";
+a.emoticon_pumpkin="pumpkin";
+a.emoticon_coffee="coffee";
+a.emoticon_blushing="blushing";
+a.emoticon_not_talking="not talking";
+a.emoticon_big_hug="big hug";
+a.emoticon_d_oh="d'oh";
+a.emoticon_shame_on_you="shame on you";
+a.emoticon_time_out="time out";
+a.emoticon_monkey="monkey";
+a.emoticon_clown="clown";
+a.emoticon_sleepy="sleepy";
+a.emoticon_batting_eyelashes="batting eyelashes";
+a.emoticon_liar="liar";
+a.emoticon_party="party";
+a.emoticon_angry="angry";
+a.emoticon_confused="confused";
+a.emoticon_whew="whew!";
+a.emoticon_daydreaming="daydreaming";
+a.emoticon_big_grin="big grin";
+a.emoticon_dancing="dancing";
+a.emoticon_nerd="nerd";
+a.emoticon_chatterbox="chatterbox";
+a.emoticon_wave="wave";
+a.emoticon_call_me="call me";
+a.emoticon_drooling="drooling";
+a.emoticon_yawn="yawn";
+a.emoticon_surprise="surprise";
+a.emoticon_hiro="hiro";
+a.emoticon_laughing="laughing";
+a.emoticon_raised_eyebrow="raised eyebrow";
+a.emoticon_idea="idea";
+a.emoticon_on_the_phone="on the phone";
+a.emoticon_nailbiting="nailbiting";
+a.emoticon_yin_yang="yin yang";
+a.emoticon_kiss="kiss";
+a.emoticon_at_wits_end="at wits' end";
+a.emoticon_billy="billy";
+a.emoticon_I_dont_know="I don't know";
+a.emoticon_hypnotized="hypnotized";
+a.emoticon_cow="cow";
+a.emoticon_applause="applause";
+a.emoticon_waiting="waiting";
+a.emoticon_love_struck="love struck";
+a.emoticon_dont_tell_anyone="don't tell anyone";
+a.emoticon_chicken="chicken";
+a.emoticon_bug="bug";
+a.emoticon_star="star";
+a.emoticon_straight_face="straight face";
+a.emoticon_crying="crying";
+a.emoticon_skull="skull";
+a.emoticon_angel="angel";
+a.emoticon_phbbbbt="phbbbbt";
+a.emoticon_alien="alien";
+a.emoticon_broken_heart="broken heart";
+a.emoticon_loser="loser";
+a.emoticon_pig="pig";
+a.emoticon_bring_it_on="bring it on";
+a.emoticon_feeling_beat_up="feeling beat up";
+a.emoticon_money_eyes="money eyes";
+a.emoticon_thinking="thinking";
+a.emoticon_peace_sign="peace sign";
+a.emoticon_oh_go_on="oh go on";
+a.emoticon_good_luck="good luck";
+a.emoticon_not_listening="not listening";
+a.emoticon_tongue="tongue";
+a.emoticon_not_worthy="not worthy";
+a.emoticon_whistling="whistling";
+a.emoticon_sigh="sigh";
+a.emoticon_puppy_dog_eyes="puppy dog eyes";
+a.emoticon_devil="devil";
+a.emoticon_talk_to_the_hand="talk to the hand";
+a.emoticon_rolling_eyes="rolling eyes";
+a.emoticon_flag="flag";
+a.emoticon_april="april";
+a.emoticon_silly="silly";
+a.emoticon_rolling_on_the_floor="rolling on the floor";
+a.emoticon_frustrated="frustrated";
+a.emoticon_cool="cool";
+a.emoticon_winking="winking";
+a.emoticon_smug="smug";
+a.emoticon_sick="sick";
+a.emoticon_cowboy="cowboy";
+a.emoticon_worried="worried";
+a.emoticon_hee_hee="hee hee";
+a.emoticon_praying="praying";
+a.emoticon_rose="rose";
+delete a;
+if(!window.com_zimbra_ymemoticons){
+com_zimbra_ymemoticons={}
+}
+a=com_zimbra_ymemoticons;
+a.label="\u00c9motic\u00f4nes Yahoo!";
+a.description="Affiche des images \u00c9motic\u00f4nes Yahoo! dans les mails";
+a.yahooEmoticons="\u00c9motic\u00f4nes Yahoo!";
+a.temporarilyDisableInMail="D\u00e9sactivez temporairement pour cet envoi";
+a.preferences="Pr\u00e9f\u00e9rences";
+a.enableInMail="Autoriser les \u00e9motic\u00f4nes dans les mails";
+a.yahoo_emoticons_pref_dialog_title="Yahoo! Pr\u00e9f\u00e9rences des \u00e9motic\u00f4nes";
+a.yahoo_emoticons_toaster_enabled="\u00c9motic\u00f4nes activ\u00e9es dans la messagerie.";
+a.yahoo_emoticons_toaster_disabled="\u00c9motic\u00f4nes d\u00e9sactiv\u00e9es dans la messagerie.";
+a.yahoo_emoticons_toaster_temporarily_disabled="\u00c9motic\u00f4nes d\u00e9sactiv\u00e9es temporairement.";
+a.emoticon_happy="heureux";
+a.emoticon_sad="triste";
+a.emoticon_pumpkin="citrouille";
+a.emoticon_coffee="caf\u00e9";
+a.emoticon_blushing="rougissement";
+a.emoticon_not_talking="pas bavard";
+a.emoticon_big_hug="grande \u00e9treinte";
+a.emoticon_d_oh="Pff";
+a.emoticon_shame_on_you="quelle honte\u00a0!";
+a.emoticon_time_out="on se calme\u00a0!";
+a.emoticon_monkey="singe";
+a.emoticon_clown="clown";
+a.emoticon_sleepy="envie de dormir";
+a.emoticon_batting_eyelashes="\u0153illade";
+a.emoticon_liar="menteur";
+a.emoticon_party="f\u00eate";
+a.emoticon_angry="en col\u00e8re";
+a.emoticon_confused="perplexe";
+a.emoticon_whew="\u00e7a alors\u00a0!";
+a.emoticon_daydreaming="r\u00eaverie";
+a.emoticon_big_grin="grand sourire";
+a.emoticon_dancing="danse";
+a.emoticon_nerd="nerd";
+a.emoticon_chatterbox="pipelette";
+a.emoticon_wave="signe de la main";
+a.emoticon_call_me="appelle-moi";
+a.emoticon_drooling="j\u2019en bave\u00a0!";
+a.emoticon_yawn="b\u00e2illement";
+a.emoticon_surprise="surprise";
+a.emoticon_hiro="hiro";
+a.emoticon_laughing="rire";
+a.emoticon_raised_eyebrow="sourcils fronc\u00e9s";
+a.emoticon_idea="id\u00e9e";
+a.emoticon_on_the_phone="au t\u00e9l\u00e9phone";
+a.emoticon_nailbiting="angoissant";
+a.emoticon_yin_yang="yin yang";
+a.emoticon_kiss="baiser";
+a.emoticon_at_wits_end="d\u00e9pass\u00e9";
+a.emoticon_billy="ch\u00e8vre";
+a.emoticon_I_dont_know="j\u2019sais pas";
+a.emoticon_hypnotized="hypnotis\u00e9";
+a.emoticon_cow="vache";
+a.emoticon_applause="applaudissements";
+a.emoticon_waiting="attente";
+a.emoticon_love_struck="coup de foudre";
+a.emoticon_dont_tell_anyone="ne le dites \u00e0 personne";
+a.emoticon_chicken="poulet";
+a.emoticon_bug="insecte";
+a.emoticon_star="\u00e9toile";
+a.emoticon_straight_face="impassible";
+a.emoticon_crying="pleurs";
+a.emoticon_skull="cr\u00e2ne";
+a.emoticon_angel="ange";
+a.emoticon_phbbbbt="blblblbl";
+a.emoticon_alien="extra-terrestre";
+a.emoticon_broken_heart="c\u0153ur bris\u00e9";
+a.emoticon_loser="incapable";
+a.emoticon_pig="cochon";
+a.emoticon_bring_it_on="provocation";
+a.emoticon_feeling_beat_up="\u00e9puis\u00e9";
+a.emoticon_money_eyes="r\u00eaves d\u2019argent";
+a.emoticon_thinking="pensif";
+a.emoticon_peace_sign="symbole de paix";
+a.emoticon_oh_go_on="sans blague\u00a0?!";
+a.emoticon_good_luck="bonne chance";
+a.emoticon_not_listening="pas attentif";
+a.emoticon_tongue="langue";
+a.emoticon_not_worthy="\u00e7a ne vaut pas le coup";
+a.emoticon_whistling="siffleur";
+a.emoticon_sigh="soupir";
+a.emoticon_puppy_dog_eyes="yeux de petit chien";
+a.emoticon_devil="diable";
+a.emoticon_talk_to_the_hand="parle \u00e0 ma main";
+a.emoticon_rolling_eyes="roule les yeux";
+a.emoticon_flag="drapeau";
+a.emoticon_april="avril";
+a.emoticon_silly="b\u00eatise";
+a.emoticon_rolling_on_the_floor="mort de rire";
+a.emoticon_frustrated="frustr\u00e9";
+a.emoticon_cool="cool";
+a.emoticon_winking="clin d\u2019\u0153il";
+a.emoticon_smug="fier";
+a.emoticon_sick="malade";
+a.emoticon_cowboy="cow-boy";
+a.emoticon_worried="inquiet";
+a.emoticon_hee_hee="hi hi";
+a.emoticon_praying="pri\u00e8re";
+a.emoticon_rose="rose";
+delete a;
+if(!window.com_zimbra_date){
+com_zimbra_date={}
+}
+a=com_zimbra_date;
+a.label="Date";
+a.description="Highlights dates, previews associated appointments and creates a link to the calendar.";
+a.viewDay="Day";
+a.appointmentNewTitle="New Appointment";
+a.searchForMessages="Search for mail messages";
+a.boundaryTrue="true";
+a.boundaryFalse="false";
+a["format.boundary"]="true";
+a["format1.pattern"]="(today|tonight|this morning)";
+a["format1.rule"]="now";
+a["format2.pattern"]="(tomorrow night|tomorrow morning|tomorrow)";
+a["format2.rule"]="now +1 day";
+a["format3.pattern"]="(last night|yesterday morning|yesterday)";
+a["format3.rule"]="now -1 day";
+a["format4.pattern"]="(this|next) {dayname}";
+a["format4.rule"]="now +1 {dayname}";
+a["format5.pattern"]="last {dayname}";
+a["format5.rule"]="now -1 {dayname}";
+a["format6.pattern"]="{weekord} {dayname} (of|in) {monthname}";
+a["format6.rule"]="now date=1 +1 {monthname} week={weekord},{dayname}";
+a["format7.pattern"]="{weekord} {dayname}";
+a["format7.rule"]="now week={weekord},{dayname}";
+a["format8.pattern"]="{datenum}(st|nd|rd|th)? (of|in) {monthname}";
+a["format8.rule"]="now month={monthname},{datenum}";
+a["format9.pattern"]="{monthname} {datenum}(st|nd|rd|th)?.? {timenum}.?(am|pm)";
+a["format9.rule"]="now month={monthname},{datenum}";
+a["format10.pattern"]="{datenum}(st|nd|rd|th)? {monthname} {timenum}.?(am|pm)";
+a["format10.rule"]="now month={monthname},{datenum}";
+a["format11.pattern"]="{monthname} {datenum}(st|nd|rd|th).? {militarytimenum} (hrs|hours)";
+a["format11.rule"]="now month={monthname},{datenum}";
+a["format12.pattern"]="{datenum}(st|nd|rd|th).? {monthname}.? {militarytimenum} (hrs|hours)";
+a["format12.rule"]="now month={monthname},{datenum}";
+a["format13.pattern"]="{monthname} {datenum}(st|nd|rd|th).? {yearnum}";
+a["format13.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format14.pattern"]="{dayname}.? {datenum} {monthname} {yearnum}";
+a["format14.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format15.pattern"]="{dayname}.? {monthname}  {datenum}";
+a["format15.rule"]="now month={monthname},{datenum}";
+a["format16.pattern"]="{monthname} {datenum}(st|nd|rd|th)?";
+a["format16.rule"]="now month={monthname},{datenum}";
+a["format17.pattern"]="{datenum} {monthname}.? {yearnum}";
+a["format17.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format18.pattern"]="{monthnum}/{datenum}/{yearnum}";
+a["format18.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format19.pattern"]="{yearnum}-{monthnum}-{datenum}";
+a["format19.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format20.pattern"]="{monthname} {yearnum}";
+a["format20.rule"]="now year={yearnum},{monthname},1";
+a["format21.pattern"]="{dayname}";
+a["format21.rule"]="now +1 {dayname}";
+a["format22.pattern"]="{datenum}(st|nd|rd|th)? {monthname}.? {yearnum}";
+a["format22.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format23.pattern"]="Thanksgiving";
+a["format23.rule"]="now month=November week=fourth,Thursday";
+a["format24.pattern"]="Christmas Eve";
+a["format24.rule"]="now month=December,24";
+a["format25.pattern"]="Christmas";
+a["format25.rule"]="now month=December,25";
+a["format26.pattern"]="New Year'?s Eve";
+a["format26.rule"]="now month=December,31";
+a["format27.pattern"]="New Year'?s Day";
+a["format27.rule"]="now +1 year month=January,1";
+a["format28.pattern"]="###";
+delete a;
+if(!window.com_zimbra_date){
+com_zimbra_date={}
+}
+a=com_zimbra_date;
+a.label="Date";
+a.description="Souligne les dates, donne un aper\u00e7u des rendez-vous associ\u00e9s et cr\u00e9e un lien vers le calendrier.";
+a.viewDay="Jour";
+a.appointmentNewTitle="Nouveau rendez-vous";
+a.searchForMessages="Rechercher des mails";
+a.boundaryTrue="true";
+a.boundaryFalse="false";
+a["format.boundary"]="true";
+a["format1.pattern"]="(aujourd\u2019hui|ce soir|ce matin|aujourd'?hui)";
+a["format1.rule"]="now";
+a["format2.pattern"]="(demain soir|demain matin|demain)";
+a["format2.rule"]="now +1 day";
+a["format3.pattern"]="(hier soir|hier matin|hier)";
+a["format3.rule"]="now -1 day";
+a["format4.pattern"]="(ce|le prochain) {dayname}";
+a["format4.rule"]="now +1 {dayname}";
+a["format5.pattern"]="le dernier {dayname}";
+a["format5.rule"]="now -1 {dayname}";
+a["format6.pattern"]="{weekord} {dayname} (de\u00a0:) {monthname}";
+a["format6.rule"]="now date=1 +1 {monthname} week={weekord},{dayname}";
+a["format7.pattern"]="{weekord} {dayname}";
+a["format7.rule"]="now week={weekord},{dayname}";
+a["format8.pattern"]="jour num\u00e9ro {datenum} (de) {monthname}";
+a["format8.rule"]="now month={monthname},{datenum}";
+a["format9.pattern"]="{monthname} {datenum}(er|e)\u00a0? {timenum}.?";
+a["format9.rule"]="now month={monthname},{datenum}";
+a["format10.pattern"]="{datenum}(er|e)\u00a0? {monthname} {timenum}.?";
+a["format10.rule"]="now month={monthname},{datenum}";
+a["format11.pattern"]="{monthname} {datenum}(er|e)\u00a0? {militarytimenum} (h|heures)";
+a["format11.rule"]="now month={monthname},{datenum}";
+a["format12.pattern"]="{datenum}(er|e)\u00a0? {monthname}.? {militarytimenum} (h|heures)";
+a["format12.rule"]="now month={monthname},{datenum}";
+a["format13.pattern"]="{monthname} {datenum}(er|e)\u00a0? {yearnum}";
+a["format13.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format14.pattern"]="{dayname}.? {datenum} {monthname} {yearnum}";
+a["format14.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format15.pattern"]="{dayname}.? {monthname} {datenum}";
+a["format15.rule"]="now month={monthname},{datenum}";
+a["format16.pattern"]="{monthname} {datenum}(er|e)\u00a0?";
+a["format16.rule"]="now month={monthname},{datenum}";
+a["format17.pattern"]="{datenum} {monthname}.? {yearnum}";
+a["format17.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format18.pattern"]="{datenum}/{monthnum}/{yearnum} ";
+a["format18.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format19.pattern"]="{yearnum}-{monthnum}-{datenum}";
+a["format19.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format20.pattern"]="{monthname} {yearnum}";
+a["format20.rule"]="now year={yearnum},{monthname},1";
+a["format21.pattern"]="{dayname}";
+a["format21.rule"]="now +1 {dayname}";
+a["format22.pattern"]="{datenum}(er|e)\u00a0? {monthname}.? {yearnum} ";
+a["format22.rule"]="now year={yearnum},{monthname},{datenum}";
+a["format23.pattern"]="Thanksgiving";
+a["format23.rule"]="now month=November week=fourth,Thursday";
+a["format24.pattern"]="Veille de No\u00ebl";
+a["format24.rule"]="now month=December,24";
+a["format25.pattern"]="Jour de No\u00ebl";
+a["format25.rule"]="now month=December,25";
+a["format26.pattern"]="Veille du jour de l\u2019an";
+a["format26.rule"]="now month=December,31";
+a["format27.pattern"]="Jour de l\u2019an";
+a["format27.rule"]="now +1 year month=January,1";
+a["format28.pattern"]="{datenum}/{monthnum}/{yearnum}";
+a["format28.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format29.pattern"]="{datenum}-{monthnum}-{yearnum}";
+a["format29.rule"]="now year={yearnum},{monthnum},{datenum}";
+a["format30.pattern"]="###";
+delete a;
+function com_zimbra_attachmail_HandlerObject(){}
+com_zimbra_attachmail_HandlerObject.prototype=new ZmZimletBase();
+com_zimbra_attachmail_HandlerObject.prototype.constructor=com_zimbra_attachmail_HandlerObject;
+var AttachMailZimlet=com_zimbra_attachmail_HandlerObject;
+AttachMailZimlet.prototype.initializeAttachPopup=function(t,e){
+e._createAttachMenuItem(t,ZmMsg.mail,this.showAttachmentDialog.bind(this),"ATTACH_MENU_MAIL")
+};
+AttachMailZimlet.prototype.removePrevAttDialogContent=function(t){
+var e=t&&t.firstChild;
+if(e&&e.className=="DwtComposite"){
+t.removeChild(e)
+}};
+AttachMailZimlet.prototype.onDisposeComposeController=function(){
+this.AMV._overview._controller.dispose()
+};
+AttachMailZimlet.prototype.showAttachmentDialog=function(){
+var t=this._attachDialog=appCtxt.getAttachDialog();
+t.setTitle(ZmMsg.attachMail);
+this.removePrevAttDialogContent(t._getContentDiv().firstChild);
+if(!this.AttachContactsView||!this.AttachContactsView.attachDialog){
+this.AMV=new AttachMailTabView(this._attachDialog,this)
+}
+this.AMV.reparentHtmlElement(t._getContentDiv().childNodes[0],0);
+this.AMV.attachDialog=t;
+t.setOkListener(new AjxCallback(this.AMV,this.AMV.uploadFiles));
+var e=appCtxt.getCurrentView();
+var o=new AjxCallback(e,e._attsDoneCallback,[true]);
+t.setUploadCallback(o);
+this.AMV.attachDialog.popup();
+this.AMV.attachDialog.enableInlineOption(false);
+this._addedToMainWindow=true
+};
+AttachMailZimlet.prototype.doubleClicked=function(){
+this.singleClicked()
+};
+AttachMailZimlet.prototype.singleClicked=function(){};
+AttachMailTabView=function(o,e,t){
+this.zimlet=e;
+DwtComposite.call(this,o,t,Dwt.STATIC_STYLE);
+var n=appCtxt.multiAccounts?appCtxt.getAppViewMgr().getCurrentView().getFromAccount():appCtxt.getActiveAccount();
+if(this.prevAccount&&(n.id==this.prevAccount.id)){
+this.setSize(Dwt.DEFAULT,"275");
+return
+}
+this.prevAccount=n;
+this._createHtml1();
+document.getElementById(this._folderTreeCellId).onclick=AjxCallback.simpleClosure(this._treeListener,this)
+};
+AttachMailTabView.prototype=new DwtComposite;
+AttachMailTabView.prototype.constructor=AttachMailTabView;
+AttachMailTabView.ELEMENT_ID_SEARCH_FIELD="attDlg_attMsg_SearchField";
+AttachMailTabView.ELEMENT_ID_SEARCH_BUTTON="attDlg_attMsg_SearchBtn";
+AttachMailTabView.ELEMENT_ID_VIEW_MESSAGE_BUTTON="attDlg_attMsg_ViewMsgBtn";
+AttachMailTabView.ELEMENT_ID_NAV_BUTTON_CELL="attDlg_attMsg_NavBtnCell";
+AttachMailTabView.prototype.toString=function(){
+return"AttachMailTabView"
+};
+AttachMailTabView.prototype.showMe=function(){
+DwtTabViewPage.prototype.showMe.call(this);
+var e=appCtxt.multiAccounts?appCtxt.getAppViewMgr().getCurrentView().getFromAccount():appCtxt.getActiveAccount();
+if(this.prevAccount&&(e.id==this.prevAccount.id)){
+this.setSize(Dwt.DEFAULT,"275");
+return
+}
+this.prevAccount=e;
+this._createHtml1();
+document.getElementById(this._folderTreeCellId).onclick=AjxCallback.simpleClosure(this._treeListener,this)
+};
+AttachMailTabView.prototype._resetQuery=function(e){
+if(this._currentQuery==undefined){
+this._currentQuery=e;
+return e
+}
+if(this._currentQuery!=e){
+this._offset=0;
+this._currentQuery=e
+}
+return e
+};
+AttachMailTabView.prototype._getQueryFromFolder=function(e){
+return this._resetQuery('inid:"'+e+'"')
+};
+AttachMailTabView.prototype.hideMe=function(){
+DwtTabViewPage.prototype.hideMe.call(this)
+};
+AttachMailTabView.prototype._createHtml1=function(){
+this._tableID=Dwt.getNextId();
+this._folderTreeCellId=Dwt.getNextId();
+this._folderListId=Dwt.getNextId();
+var o=[];
+var c=0;
+o[c++]='<table width="100%" style="margin-bottom:5px">';
+o[c++]='<TR><td width="20%"><INPUT type="text" id="';
+o[c++]=AttachMailTabView.ELEMENT_ID_SEARCH_FIELD;
+o[c++]='" style="padding:4px"></INPUT></td>';
+o[c++]='<td width="10%"><div id="';
+o[c++]=AttachMailTabView.ELEMENT_ID_SEARCH_BUTTON;
+o[c++]='" style="margin: 0 2px" />';
+o[c++]='<td width="10%"><div id="';
+o[c++]=AttachMailTabView.ELEMENT_ID_VIEW_MESSAGE_BUTTON;
+o[c++]='" style="margin: 0 2px" /></td>';
+o[c++]='<td align="right" width="60%"><SPAN id="';
+o[c++]=AttachMailTabView.ELEMENT_ID_NAV_BUTTON_CELL;
+o[c++]='" /></td></TR></table>';
+o[c++]='<table width="100%">';
+o[c++]="<tr>";
+o[c++]='<td valign="top" id="'+this._folderTreeCellId+'">';
+o[c++]="</td>";
+o[c++]='<td  valign="top"  id="'+this._folderListId+'">';
+o[c++]="</td>";
+o[c++]="</tr>";
+o[c++]="</table>";
+this.setContent(o.join(""));
+var h=new DwtButton({
+parent:this}
+);
+var e=this.zimlet.getMessage("AttachMailZimlet_tab_button_search");
+h.setText(e);
+h.addSelectionListener(new AjxListener(this,this._searchButtonListener));
+document.getElementById(AttachMailTabView.ELEMENT_ID_SEARCH_BUTTON).appendChild(h.getHtmlElement());
+var r=new DwtButton({
+parent:this}
+);
+var l=this.zimlet.getMessage("AttachMailZimlet_tab_button_view");
+r.setText(l);
+r.addSelectionListener(new AjxListener(this,this._viewMsgButtonListener));
+document.getElementById(AttachMailTabView.ELEMENT_ID_VIEW_MESSAGE_BUTTON).appendChild(r.getHtmlElement());
+this._navigationContainer=new DwtComposite(appCtxt.getShell());
+this._navTB=new AMZimletNavToolBar({
+parent:this._navigationContainer}
+);
+var s=new AjxListener(this,this._navBarListener);
+this._navTB.addSelectionListener(ZmOperation.PAGE_BACK,s);
+this._navTB.addSelectionListener(ZmOperation.PAGE_FORWARD,s);
+document.getElementById(AttachMailTabView.ELEMENT_ID_NAV_BUTTON_CELL).appendChild(this._navTB.getHtmlElement());
+var t={
+parent:appCtxt.getShell(),className:"AttachMailTabBox AttachMailList",posStyle:DwtControl.ABSOLUTE_STYLE,view:ZmId.VIEW_BRIEFCASE_ICON,type:ZmItem.ATT};
+var n=this._tabAttachMailView=new ZmAttachMailListView(t);
+this.showAttachMailTreeView();
+n.reparentHtmlElement(this._folderListId);
+n.addSelectionListener(new AjxListener(this,this._listSelectionListener));
+Dwt.setPosition(n.getHtmlElement(),Dwt.RELATIVE_STYLE)
+};
+AttachMailTabView.prototype._searchButtonListener=function(e){
+this.treeView.deselectAll();
+var o=document.getElementById(AttachMailTabView.ELEMENT_ID_SEARCH_FIELD).value;
+if(o==""){
+return
+}
+var t=this._resetQuery(o);
+this.executeQuery(t)
+};
+AttachMailTabView.prototype._viewMsgButtonListener=function(o){
+var e=this.getSelectedMsgs();
+for(var t=0;
+t<e.length;
+t++){
+e[t].load({}
+);
+ZmMailMsgView.detachMsgInNewWindow(e[t])
+}};
+AttachMailTabView.prototype._navBarListener=function(e){
+var t=e.item.getData(ZmOperation.KEY_ID);
+this._paginate(t==ZmOperation.PAGE_FORWARD)
+};
+AttachMailTabView.prototype._paginate=function(e){
+this.executeQuery(this._currentQuery,e)
+};
+AttachMailTabView.prototype.searchFolder=function(t){
+var e=AjxSoapDoc.create("SearchRequest","urn:zimbraMail");
+e.setMethodAttribute("types","message");
+e.setMethodAttribute("limit",t.limit);
+e.setMethodAttribute("offset",t.offset);
+e.set("query",t.query);
+t.response=appCtxt.getAppController().sendRequest({
+soapDoc:e,noBusyOverlay:false}
+);
+this.handleSearchResponse(t)
+};
+AttachMailTabView.prototype.handleSearchResponse=function(t){
+var e=t.response;
+if(e&&(e.SearchResponse||e._data.SearchResponse)){
+t.searchResponse=e.SearchResponse||e._data.SearchResponse;
+t.items=this.processDocsResponse(t)
+}
+if(t.callback){
+t.callback.run(t)
+}};
+AttachMailTabView.prototype.processDocsResponse=function(s){
+var o=s.searchResponse.m;
+var e=new ZmMailList(ZmItem.MSG,this._currentSearch);
+e.clear();
+e.setHasMore(s.searchResponse.more);
+if(o==undefined){
+return e
+}
+for(var t=0;
+t<o.length;
+t++){
+var n=o[t];
+e.addFromDom(n)
+}
+return e
+};
+AttachMailTabView.prototype.showResultContents=function(n){
+var t=n.items;
+this._navTB.enable(ZmOperation.PAGE_BACK,n.offset>0);
+this._navTB.enable(ZmOperation.PAGE_FORWARD,t.hasMore());
+var o=t.size();
+if(o==0){
+this._navTB.setText("")
+}else{
+this._navTB.setText((this._offset+1)+"-"+(this._offset+t.size()))
+}
+if(t){
+this._list=t
+}else{
+this._list=new ZmList(ZmItem.BRIEFCASE_ITEM)
+}
+var e=this._tabAttachMailView;
+e.set(this._list)
+};
+AttachMailTabView.prototype._handleKeys=function(t){
+var e=DwtKeyEvent.getCharCode(t);
+return !DwtKeyEvent.IS_RETURN[e]
+};
+AttachMailTabView.prototype.gotAttachments=function(){
+return false
+};
+AttachMailTabView.prototype.getSelectedMsgs=function(){
+var e=this._tabAttachMailView;
+return e.getSelection()
+};
+AttachMailTabView.prototype.uploadFiles=function(o,e){
+if(!e){
+e=[];
+var t=this.getSelectedMsgs();
+if(!t||(t.length==0)){
+return
+}
+for(var n in t){
+e.push(t[n].id)
+}}
+if(o==undefined){
+o=this.attachDialog
+}
+if(o._uploadCallback){
+o._uploadCallback.run(AjxPost.SC_OK,null,null,e)
+}
+o.popdown()
+};
+AttachMailTabView.prototype.showAttachMailTreeView=function(){
+var e=new AjxCallback(this,this._showTreeView);
+AjxPackage.undefine("zimbraMail.mail.controller.ZmMailFolderTreeController");
+AjxPackage.require({
+name:"MailCore",forceReload:true,callback:e}
+)
+};
+AttachMailTabView.prototype._showTreeView=function(){
+if(appCtxt.isChildWindow){
+ZmOverviewController.CONTROLLER.FOLDER="ZmMailFolderTreeController"
+}
+var o=appCtxt.getApp(ZmApp.MAIL);
+o._createDeferredFolders();
+var e=this.toString();
+var t={
+treeIds:["FOLDER"],fieldId:this._folderTreeCellId,overviewId:(appCtxt.multiAccounts)?([e,this.prevAccount.name].join(":")):e,account:this.prevAccount};
+this._setOverview(t);
+this.setSize(Dwt.DEFAULT,"275");
+this._currentQuery=this._getQueryFromFolder("2");
+setTimeout(AjxCallback.simpleClosure(this.treeView.setSelected,this.treeView,2),100)
+};
+AttachMailTabView.prototype._setOverview=function(n){
+var o=n.overviewId;
+var s=appCtxt.getOverviewController();
+var t=s.getOverview(o);
+if(!t){
+var e={
+overviewId:o,overviewClass:"AttachMailTabBox",headerClass:"DwtTreeItem",noTooltips:true,treeIds:n.treeIds};
+t=s.createOverview(e);
+t.account=this.prevAccount;
+t.set(n.treeIds);
+t.clearChangeListener(n.treeIds)
+}else{
+if(n.account){
+t.account=n.account
+}}
+t.setSelected(this.prevAccount.id+":"+ZmFolder.ID_INBOX,"FOLDER");
+this._overview=t;
+document.getElementById(n.fieldId).appendChild(t.getHtmlElement());
+this.treeView=t.getTreeView("FOLDER");
+this.treeView.addSelectionListener(new AjxListener(this,this._treeListener));
+this._hideRoot(this.treeView)
+};
+AttachMailTabView.prototype._treeListener=function(o,e){
+o=o||window.event;
+if(e||o.detail==DwtTree.ITEM_SELECTED){
+var t=this.treeView.getSelected();
+document.getElementById(AttachMailTabView.ELEMENT_ID_SEARCH_FIELD).value=['in:"',t.getSearchPath(),'"'].join("");
+var n=this._getQueryFromFolder(t.id);
+this.executeQuery(n);
+this._tabAttachMailView.focus()
+}};
+AttachMailTabView.prototype._hideRoot=function(t){
+var o=t.getTreeItemById(ZmOrganizer.ID_ROOT);
+if(!o){
+var e=ZmOrganizer.getSystemId(ZmOrganizer.ID_ROOT,this.prevAccount);
+o=t.getTreeItemById(e)
+}
+o.showCheckBox(false);
+o.setExpanded(true);
+o.setVisible(false,true)
+};
+AttachMailTabView.prototype.setSize=function(n,e){
+DwtTabViewPage.prototype.setSize.call(this,n,e);
+var o=this.getSize();
+var r=o.x*0.35;
+var s=o.x-r;
+var t=e-55;
+this._overview.setSize(r,t);
+this._tabAttachMailView.setSize(s-5,t);
+return this
+};
+AttachMailTabView.prototype.executeQuery=function(t,e){
+if(this._limit==undefined){
+this._limit=50
+}
+if(this._offset==undefined){
+this._offset=0
+}
+if(e!=undefined){
+if(e){
+this._offset=this._offset+50
+}else{
+this._offset=this._offset-50
+}}
+var o=new AjxCallback(this,this.showResultContents);
+this.searchFolder({
+query:t,offset:this._offset,limit:this._limit,callback:o}
+)
+};
+ZmAttachMailController=function(e){
+if(arguments.length==0){
+return
+}
+ZmListController.call(this,null,null);
+this.clearChangeListener();
+this._currentViewId="ZmAttachMailListView";
+this._view={};
+this._view[this._currentViewId]=e
+};
+ZmAttachMailController.prototype=new ZmListController;
+ZmAttachMailController.prototype.constructor=ZmAttachMailController;
+ZmAttachMailController.prototype._resetToolbarOperations=function(){};
+ZmAttachMailController.prototype.clearChangeListener=function(){
+if(this._boundTagChangeListener){
+var e=appCtxt.getTagTree();
+if(e){
+e.removeChangeListener(this._boundTagChangeListener)
+}}};
+ZmAttachMailListView=function(e){
+this._showCheckboxColSpan=appCtxt.get(ZmSetting.SHOW_SELECTION_CHECKBOX);
+ZmListView.call(this,e);
+this.clearChangeListener();
+this._controller=new ZmAttachMailController(this)
+};
+ZmAttachMailListView.prototype=new ZmListView;
+ZmAttachMailListView.prototype.constructor=ZmAttachMailListView;
+ZmAttachMailListView.prototype._getDivClass=function(t,e,o){
+return""
+};
+ZmAttachMailListView.prototype.clearChangeListener=function(){
+if(this._boundFolderChangeListener){
+var t=appCtxt.getFolderTree();
+if(t){
+t.removeChangeListener(this._boundFolderChangeListener)
+}}
+if(this._tagListChangeListener){
+var e=appCtxt.getTagTree();
+if(e){
+e.removeChangeListener(this._tagListChangeListener)
+}}};
+ZmAttachMailListView.prototype._getCellContents=function(d,c,u,h,t,e){
+var n=u.fragment?AjxStringUtil.htmlEncode(u.fragment.slice(0,80)):"";
+var l=u.getAddress("FROM");
+if(l.name!=""){
+l=l.name
+}else{
+l=l.address
+}
+var o="";
+var r=2;
+if(u.hasAttach){
+o="<td width='16px'><div class='ImgAttachment'/></td>";
+r=3
+}
+d[c++]="<div class='AttachMailRowDiv'>";
+d[c++]="<table width='100%'>";
+var s=u.subject?AjxStringUtil.htmlEncode(u.subject.slice(0,32)):ZmMsg.noSubject;
+d[c++]="<tr>";
+if(this._showCheckboxColSpan){
+d[c++]="<td rowspan=3 style='vertical-align:middle;' width='20'><center>";
+c=this._getImageHtml(d,c,"CheckboxUnchecked",this._getFieldId(u,ZmItem.F_SELECTION));
+d[c++]="</center></td>"
+}
+d[c++]=o;
+d[c++]="<td align='left' width='80%'><span class='AttachMailSubject'> "+s+"</span></td>";
+d[c++]="<td width='20%' align='right'>";
+d[c++]=AjxDateUtil.computeDateStr(e.now||new Date(),u.date);
+d[c++]="</td></tr>";
+d[c++]="<tr><td align='left' colspan='"+r+"'><span class='AttachMailFrom'> ";
+d[c++]=l;
+d[c++]="</span></td></tr>";
+if(n!=""){
+d[c++]="<tr><td align=left colspan="+r+"><span class='AttachMailFrag'>"+n+"</span></td></tr>"
+}
+d[c++]="</table></div>";
+return c
+};
+AMZimletNavToolBar=function(t){
+t.className=t.className||"AMZimletNavToolBar";
+var e=(t.hasText!==false);
+t.buttons=this._getButtons(e);
+t.toolbarType=ZmId.TB_NAV;
+t.posStyle=t.posStyle||DwtControl.STATIC_STYLE;
+ZmButtonToolBar.call(this,t);
+if(e){
+this._textButton=this.getButton(ZmOperation.TEXT)
+}};
+AMZimletNavToolBar.prototype=new ZmButtonToolBar;
+AMZimletNavToolBar.prototype.constructor=AMZimletNavToolBar;
+AMZimletNavToolBar.prototype.toString=function(){
+return"AMZimletNavToolBar"
+};
+AMZimletNavToolBar.prototype._getButtons=function(e){
+var t=[];
+t.push(ZmOperation.PAGE_BACK);
+if(e){
+t.push(ZmOperation.TEXT)
+}
+t.push(ZmOperation.PAGE_FORWARD);
+return t
+};
+AMZimletNavToolBar.prototype.createOp=function(t,e){
+e.textClassName="ZWidgetTitle AMZimletNavToolBarTitle";
+return ZmButtonToolBar.prototype.createOp.apply(this,arguments)
+};
+AMZimletNavToolBar.prototype.setText=function(e){
+if(!this._textButton){
+return
+}
+this._textButton.setText(e)
+};
+AjxTemplate.register("com_zimbra_email.templates.Email1#Frame",function(t,r,s,e){
+var n=Boolean(e);
+s=(typeof s=="string"?{
+id:s}
+:s)||{};
+e=e||[];
+var o=e.length;
+e[o++]="<div id='UnknownPersonSlide_Frame' style='background:white;display:block;height:100%;overflow:auto;padding:10px;'><table width='100%'><tr><td valign='top' width='65'><div id=\"";
+e[o++]=s.photoParentId;
+e[o++]='"></div></td><td><div id="';
+e[o++]=s.textDivId;
+e[o++]="\" style='margin-left:10px;'></div></td></tr></table></div>";
+return n?e.length:e.join("")
+}
+,{
+id:"Frame"}
+,true);
+AjxPackage.define("com_zimbra_email.templates.Email1");
+AjxTemplate.register("com_zimbra_email.templates.Email1",AjxTemplate.getTemplate("com_zimbra_email.templates.Email1#Frame"),AjxTemplate.getParams("com_zimbra_email.templates.Email1#Frame"));
+AjxTemplate.register("com_zimbra_email.templates.Email1#ContactDetails",function(e,t,h,s){
+var o=Boolean(s);
+h=(typeof h=="string"?{
+id:h}
+:h)||{};
+s=s||[];
+var n=s.length;
+if(h.fullName){
+s[n++]="<div><label id='UnknownPersonSlide_NameAnchorId' class='FakeAnchor' style='font-size:15px;font-weight:bold;'>";
+s[n++]=AjxStringUtil.htmlEncode(h.fullName);
+s[n++]="</label></div>"
+}
+s[n++]="<table style='margin-bottom:.5em;'><tr id='row_Presence'><td><div id='img_Presence'></div></td><td><label id='text_Presence'></label></td></tr></table>";
+var c=this.com_zimbra_email.jobTitleDepartmentCompany.split(",");
+var l=c.length;
+var r;
+for(r=0;
+r<l;
+r++){
+s[n++]="<div><label>";
+s[n++]=AjxStringUtil.htmlEncode(h[c[r]]);
+s[n++]="</label></div>"
+}
+if(h.email){
+s[n++]="<div><label  id='UnknownPersonSlide_EmailAnchorId' class='FakeAnchor'>";
+s[n++]=AjxStringUtil.htmlEncode(h.email);
+s[n++]="</label></div>"
+}
+if(h.mobilePhone){
+s[n++]="<div><label id='UnknownPersonSlide_mobilePhoneAnchorId' class='FakeAnchor'>";
+s[n++]=AjxStringUtil.htmlEncode(h.mobilePhone);
+s[n++]=" (";
+s[n++]=ZmMsg.cell;
+s[n++]=")</label></div>"
+}
+if(h.workPhone){
+s[n++]="<div><label id='UnknownPersonSlide_workPhoneAnchorId' class='FakeAnchor'>";
+s[n++]=AjxStringUtil.htmlEncode(h.workPhone);
+s[n++]=" (";
+s[n++]=ZmMsg.work;
+s[n++]=")</label></div>"
+}
+if(h.homePhone){
+s[n++]="<div><label id='UnknownPersonSlide_workPhoneAnchorId' class='FakeAnchor'>";
+s[n++]=AjxStringUtil.htmlEncode(h.homePhone);
+s[n++]=" (";
+s[n++]=ZmMsg.home;
+s[n++]=")</label></div>"
+}
+if(h.address){
+s[n++]="<div><label>";
+s[n++]=AjxStringUtil.htmlEncode(h.address);
+s[n++]=" (";
+s[n++]=ZmMsg.work;
+s[n++]=")</label></div>"
+}
+return o?s.length:s.join("")
+}
+,{
+id:"ContactDetails"}
+,true);
+function com_zimbra_email_handlerObject(){
+this.isPrimaryEmailTooltip=true
+}
+com_zimbra_email_handlerObject.prototype=new ZmZimletBase();
+com_zimbra_email_handlerObject.prototype.constructor=com_zimbra_email_handlerObject;
+var EmailTooltipZimlet=com_zimbra_email_handlerObject;
+EmailTooltipZimlet.NEW_FILTER="__new__";
+EmailTooltipZimlet.MAILTO_RE=/^mailto:[\x27\x22]?([^@?&\x22\x27]+@[^@?&]+\.[^@?&\x22\x27]+)[\x27\x22]?/;
+EmailTooltipZimlet.tooltipWidth=280;
+EmailTooltipZimlet.prototype.init=function(){
+if(appCtxt.get(ZmSetting.CONTACTS_ENABLED)){
+AjxDispatcher.require(["ContactsCore","Contacts"])
+}
+this._prefDialog=new EmailToolTipPrefDialog(this);
+this._subscriberZimlets=[];
+this._presenceProvider=null;
+this._preLoadImgs();
+this._presenceCache=[]
+};
+EmailTooltipZimlet.prototype.doubleClicked=function(){
+this.singleClicked()
+};
+EmailTooltipZimlet.prototype.singleClicked=function(){
+this._prefDialog.popup()
+};
+EmailTooltipZimlet.prototype._getHtmlContent=function(n,h,o,e,t,c){
+if(o instanceof AjxEmailAddress){
+var e=window.parentAppCtxt||window.appCtxt;
+var r=e.getApp(ZmApp.CONTACTS);
+var s=r&&r.getContactByEmail(o.address);
+if(r&&!s&&s!==null){
+var l=new AjxCallback(this,this._handleResponseGetContact,[n,h,o,t,c]);
+r.getContactByEmail(o.address,l)
+}
+return this._updateHtmlContent(n,h,o,s,t,c)
+}else{
+n[h++]=AjxStringUtil.htmlEncode(o);
+return h
+}};
+EmailTooltipZimlet.prototype._updateHtmlContent=function(n,t,l,e,r,o){
+var h=AjxStringUtil.htmlEncode(l.toString(o&&o.shortAddress));
+var s=r&&document.getElementById(r);
+if(s){
+s.innerHTML=h
+}else{
+n[t++]=h;
+return t
+}};
+EmailTooltipZimlet.prototype._handleResponseGetContact=function(n,t,r,s,o,e){
+if(e){
+this._updateHtmlContent(n,t,r,e,s,o)
+}};
+EmailTooltipZimlet.prototype.hoverOut=function(e,t,n,o){
+if(!this.tooltip){
+return
+}
+this._hoverOver=false;
+this.tooltip.setSticky(true);
+setTimeout(AjxCallback.simpleClosure(this.popDownIfMouseNotOnSlide,this),700)
+};
+EmailTooltipZimlet.prototype.popDownIfMouseNotOnSlide=function(){
+if(this._hoverOver){
+return
+}else{
+if(this.slideShow&&this.slideShow.isMouseOverTooltip){
+return
+}else{
+if(this.tooltip){
+this.tooltip.setSticky(false);
+this.tooltip.popdown()
+}}}};
+EmailTooltipZimlet.prototype.popdown=function(){
+this._hoverOver=false;
+if(this.tooltip){
+this.tooltip.setSticky(false);
+this.tooltip.popdown()
+}};
+EmailTooltipZimlet.prototype.addSubscriberZimlet=function(e,o,t){
+this._subscriberZimlets.push(e);
+if(o){
+this.primarySubscriberZimlet=e
+}
+if(t&&t.presenceCallback&&!this._presenceProvider){
+this._presenceProvider=t.presenceCallback
+}};
+EmailTooltipZimlet.prototype.onEmailHover=function(t,n,e,h,s){
+var o=DwtShell.getShell(window);
+var r=o.getToolTip();
+r.setContent('<div id="zimletTooltipDiv"/>',true);
+this.x=e;
+this.y=h;
+if(!this.toolTipPoppedUp(s,t,n,document.getElementById("zimletTooltipDiv"))){
+r.popup(e,h,true,new AjxCallback(this,this.hoverOut,t,n,s))
+}
+return true
+};
+EmailTooltipZimlet.prototype.toolTipPoppedUp=function(o,n,t,e){
+var r=appCtxt.getToolTipMgr().getToolTip(ZmToolTipMgr.PERSON,{
+address:n}
+);
+if(r){
+var s=document.getElementById("zimletTooltipDiv");
+if(s){
+s.innerHTML=r
+}
+return false
+}
+return true
+};
+EmailTooltipZimlet.prototype.onHoverOverEmailInList=function(t,r,s){
+if(!t||!t.address){
+return false
+}
+var e=r?r.docX:this.x;
+var h=r?r.docY:this.y;
+this.noRightClick=s;
+var n=DwtShell.getShell(window);
+var o=n.getHoverMgr();
+o.setHoverOutDelay(500);
+return this.handleHover(t,null,e,h)
+};
+EmailTooltipZimlet.prototype.handleHover=function(t,o,e,r,s,n){
+this._hoverOver=true;
+this._initializeProps(t,o,e,r,s);
+appCtxt.notifyZimlets("onEmailHoverOver",[this],{
+waitUntilLoaded:true}
+);
+if(this.primarySubscriberZimlet){
+this.primarySubscriberZimlet.showTooltip();
+return true
+}
+this._unknownPersonSlide=new UnknownPersonSlide();
+this._unknownPersonSlide.onEmailHoverOver(this);
+this._unknownPersonSlide.showTooltip();
+return true
+};
+EmailTooltipZimlet.prototype._initializeProps=function(t,n,e,l,s){
+if(!this.seriesAnimation){
+this.seriesAnimation=new SeriesAnimation()
+}
+this.seriesAnimation.reset();
+var o=DwtShell.getShell(window);
+var r=o.getToolTip();
+r.setContent('<div id="zimletTooltipDiv"></div>',true);
+this.x=e;
+this.y=l;
+this.tooltip=r;
+r.setListener((AjxEnv.isIE8?DwtEvent.ONMOUSELEAVE:DwtEvent.ONMOUSEOUT),new AjxListener(this,this.hoverOut));
+var h=(t.isAjxEmailAddress)?t.address:t;
+h=AjxStringUtil.parseMailtoLink(h).to;
+this.emailAddress=h;
+this.fullName=(t instanceof AjxEmailAddress)?t.name:"";
+this.canvas=document.getElementById("zimletTooltipDiv");
+this.slideShow=new EmailToolTipSlideShow(this,this.canvas);
+this.contextMenu=this.getActionMenu(t,s,n,false)
+};
+EmailTooltipZimlet.prototype._preLoadImgs=function(){
+this._busyImg=new Image();
+this._busyImg.src=this.getResource("img/EmailZimlet_busy.gif");
+this._unknownPersonImg=new Image();
+this._unknownPersonImg.src=this.getResource("img/UnknownPerson_dataNotFound.jpg")
+};
+EmailTooltipZimlet.prototype.showBusyImg=function(e,t,s){
+var n=s?this.y+s:this.y;
+var o=t?this.x+t:this.x;
+this._busyImg.style.top=n;
+this._busyImg.style.left=o;
+this._busyImg.style.display="block";
+this._busyImg.style.position="absolute";
+this._busyImg.style.zIndex="500";
+this._busyImgTimer=setTimeout(AjxCallback.simpleClosure(this._handleNoImg,this,e),4000)
+};
+EmailTooltipZimlet.prototype.showLoadingAtId=function(e,o){
+var t=document.getElementById(o);
+t.innerHTML=["<br/><br/><label style='color:gray'>",ZmMsg.loading,"</label>"].join("");
+this._busyImgTimer=setTimeout(AjxCallback.simpleClosure(this._handleNoImgAtId,this,e,o),4000)
+};
+EmailTooltipZimlet.prototype._handleNoImgAtId=function(e,t){
+clearTimeout(this._busyImgTimer);
+if(e){
+e.run()
+}};
+EmailTooltipZimlet.prototype._handleNoImg=function(e){
+clearTimeout(this._busyImgTimer);
+this._busyImg.style.zIndex="100";
+this._busyImg.style.display="none";
+if(e){
+e.run()
+}};
+EmailTooltipZimlet.prototype.hideBusyImg=function(){
+clearTimeout(this._busyImgTimer);
+this._busyImg.style.zIndex="100";
+this._busyImg.style.display="none"
+};
+EmailTooltipZimlet.prototype._getAddress=function(e){
+return e.isAjxEmailAddress?e.address:e
+};
+EmailTooltipZimlet.prototype._phoneListener=function(e){
+if(!e){
+return
+}
+appCtxt.notifyZimlets("onPhoneClicked",[e],{
+waitUntilLoaded:true}
+)
+};
+EmailTooltipZimlet.prototype._imListener=function(e){
+if(!e){
+return
+}};
+EmailTooltipZimlet.prototype.animateOpacity=function(h,s,e,t){
+this.changeOpac(s,document.getElementById(h).style);
+var o=Math.round(t/100);
+var r=0;
+var n=document.getElementById(h).style;
+if(s>e){
+for(i=s;
+i>=e;
+i--){
+setTimeout(AjxCallback.simpleClosure(this.changeOpac,this,i,n),(r*o));
+r++
+}}else{
+if(s<e){
+for(i=s;
+i<=e;
+i++){
+setTimeout(AjxCallback.simpleClosure(this.changeOpac,this,i,n),(r*o));
+r++
+}}}};
+EmailTooltipZimlet.prototype.changeOpac=function(e,t){
+t.opacity=(e/100);
+t.MozOpacity=(e/100);
+t.KhtmlOpacity=(e/100);
+t.zoom=1
+};
+EmailTooltipZimlet.prototype.openCenteredWindow=function(o){
+this.popdown();
+var n=800;
+var e=600;
+var h=parseInt((screen.availWidth/2)-(n/2));
+var r=parseInt((screen.availHeight/2)-(e/2));
+var t="width="+n+",height="+e+",status,resizable,left="+h+",top="+r+"screenX="+h+",screenY="+r;
+var s=window.open(o,"subWind",t);
+if(!s){
+this._showWarningMsg(ZmMsg.popupBlocker)
+}};
+EmailToolTipSlideShow.mainDivId="EmailZimlet_slidesMainDiv";
+EmailToolTipSlideShow.navDivId="EmailZimlet_slidesNavDiv";
+EmailToolTipSlideShow.navTableRowId="EmailZimlet_slidesNavTableRow";
+function EmailToolTipSlideShow(e,t){
+this.slidesIconAndSlideMap=[];
+this.numberOfSlides=0;
+this.emailZimlet=e;
+this.canvas=t;
+this._createFrame(t);
+this.mainDiv=document.getElementById(EmailToolTipSlideShow.mainDivId);
+this.navDiv=document.getElementById(EmailToolTipSlideShow.navDivId);
+this.navTableRow=document.getElementById(EmailToolTipSlideShow.navTableRowId);
+this.currentSelectCellId=null;
+this.currentSlideId=null;
+this.navDiv.onclick=AjxCallback.simpleClosure(this._handleClick,this);
+t.onmouseover=AjxCallback.simpleClosure(this.handleMouseOver,this);
+t.onmouseout=AjxCallback.simpleClosure(this.handleMouseOut,this);
+this.mainDiv.style.width=EmailTooltipZimlet.tooltipWidth+"px";
+this.navDiv.style.width=EmailTooltipZimlet.tooltipWidth+"px"
+}
+EmailToolTipSlideShow.prototype._createFrame=function(e){
+e.innerHTML=["<div id='",EmailToolTipSlideShow.mainDivId,"'></div>","<div id='",EmailToolTipSlideShow.navDivId,"'>","<div class='horizsep'></div>","<table width=100%><tr id='",EmailToolTipSlideShow.navTableRowId,"'>","</tr></table></div>"].join("")
+};
+EmailToolTipSlideShow.prototype._handleClick=function(o){
+if(!o){
+var o=window.event
+}
+var t;
+if(o.target){
+t=o.target
+}else{
+if(o.srcElement){
+t=o.srcElement
+}}
+if(t.nodeType==3){
+t=t.parentNode
+}
+if(t.id){
+if(this.slidesIconAndSlideMap[t.id]){
+this.slidesIconAndSlideMap[t.id].select()
+}}};
+EmailToolTipSlideShow.prototype.addSlide=function(e,t){
+e.slideShow=this;
+if(!t){
+t=this.numberOfSlides
+}
+this.slidesIconAndSlideMap[e.iconDivId]=e;
+var o=document.createElement("div");
+o.id=e.id;
+o.style.display="none";
+this.mainDiv.appendChild(o);
+o.innerHTML=e.html;
+this._insertSlideIcon(e);
+this.numberOfSlides++
+};
+EmailToolTipSlideShow.prototype._insertSlideIcon=function(e){
+var r=e.iconName;
+var n=e.iconDivId;
+var t=e.selectCellId;
+var o=e.name;
+var s=this.navTableRow.insertCell(0);
+this._insertIconHtml(s,t,o,n,r)
+};
+EmailToolTipSlideShow.prototype._insertIconHtml=function(n,e,t,o,s){
+n.align="center";
+n.id=e;
+n.innerHTML=["<div title='",t,"' id='",o,"' class='Img",s,"' style='cursor:pointer;'></div>"].join("")
+};
+EmailToolTipSlideShow.prototype.handleMouseOver=function(){
+this.isMouseOverTooltip=true
+};
+EmailToolTipSlideShow.prototype.handleMouseOut=function(){
+this.isMouseOverTooltip=false;
+this.emailZimlet.hoverOut()
+};
+function EmailToolTipSlide(o,n,s,e,t){
+this.html=o;
+this.visible=n;
+this.iconName=s;
+this.id=Dwt.getNextId();
+this.iconDivId=Dwt.getNextId();
+this.selectCellId=Dwt.getNextId();
+this.slideShow=null;
+this.canvasElement=null;
+this._selectCallback=e;
+this.name=t
+}
+EmailToolTipSlide.prototype.select=function(){
+if(this.slideShow.currentSlideId){
+document.getElementById(this.slideShow.currentSlideId).style.display="none"
+}
+document.getElementById(this.id).style.display="block";
+this.slideShow.currentSlideId=this.id;
+if(this.slideShow.currentSelectCellId){
+document.getElementById(this.slideShow.currentSelectCellId).style.background=""
+}
+document.getElementById(this.selectCellId).style.display="none";
+this.slideShow.currentSelectCellId=this.selectCellId;
+if(this._selectCallback){
+this._selectCallback.run()
+}};
+EmailToolTipSlide.prototype.setCanvasElement=function(e){
+this.canvasElement=e
+};
+EmailToolTipSlide.prototype.setInfoMessage=function(e){
+this._appendMsg2Slide(e,"EmailToolTipSlideMsgColor")
+};
+EmailToolTipSlide.prototype.setErrorMessage=function(e){
+this._appendMsg2Slide(e,"EmailToolTipSlideErrorColor")
+};
+EmailToolTipSlide.prototype._appendMsg2Slide=function(o,e){
+var t=["<div class='EmailToolTipSlideText ",e,"'>",o,"</div>"].join("");
+if(this.canvasElement){
+this.canvasElement.innerHTML=t
+}};
+EmailToolTipSlide.prototype.clearSlideMessage=function(t,e){
+if(this.canvasElement){
+this.canvasElement.innerHTML=""
+}};
+function EmailToolTipPrefDialog(e){
+this.zimlet=e;
+this.emailZimlet_tooltipArea=this.zimlet.getUserProperty("emailZimlet_tooltipArea");
+if(!this.emailZimlet_tooltipArea){
+this.emailZimlet_tooltipArea=EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_MEDIUM]
+}
+this.updateEmailTooltipSize()
+}
+EmailToolTipPrefDialog.SIZE_VERYSMALL="VERYSMALL";
+EmailToolTipPrefDialog.SIZE_SMALL="SMALL";
+EmailToolTipPrefDialog.SIZE_MEDIUM="MEDIUM";
+EmailToolTipPrefDialog.SIZE_LARGE="LARGE";
+EmailToolTipPrefDialog.SIZE_XL="XL";
+EmailToolTipPrefDialog.DIMENSIONS=[];
+EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_VERYSMALL]="220px x 130px";
+EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_SMALL]="230px x 140px";
+EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_MEDIUM]="280px x 150px";
+EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_LARGE]="260px x 200px";
+EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_XL]="270px x 210px";
+EmailToolTipPrefDialog.prototype.updateEmailTooltipSize=function(){
+var e=this.emailZimlet_tooltipArea.replace(/px/ig,"");
+var t=e.split(" x ");
+EmailTooltipZimlet.tooltipWidth=t[0];
+EmailTooltipZimlet.tooltipHeight=t[1]
+};
+function SeriesAnimation(){
+this._objsToAnimate=[];
+this._objIdAndAnimationTypeMap=[]
+}
+SeriesAnimation.prototype.startAnimation=function(){
+this._animateNextItem()
+};
+SeriesAnimation.prototype.reset=function(){
+this._objsToAnimate=[];
+this._objIdAndAnimationTypeMap=[]
+};
+SeriesAnimation.prototype.addFadeIn=function(e,t){
+this._addObjs({
+objId:e,aType:"FADEIN",endingOpac:t,millisecs:null}
+)
+};
+SeriesAnimation.prototype.addPause=function(e){
+this._addObjs({
+objId:"__PAUSE__",aType:"PAUSE",endingOpac:null,millisecs:e}
+)
+};
+SeriesAnimation.prototype.addFadeOut=function(e,t){
+this._addObjs({
+objId:e,aType:"FADEOUT",endingOpac:t,millisecs:null}
+)
+};
+SeriesAnimation.prototype.addslideUp=function(t,e){
+this._addObjs({
+objId:t,aType:"SLIDEUP",endHeightPercent:e}
+)
+};
+SeriesAnimation.prototype.addslideDown=function(t,e){
+this._addObjs({
+objId:t,aType:"SLIDEDOWN",endHeightPercent:e}
+)
+};
+SeriesAnimation.prototype.addZoomIn=function(o,e,n,t){
+this._addObjs({
+objId:o,aType:"ZOOMIN",objWidth:e,objHeight:n,zoomByThisPixels:t}
+)
+};
+SeriesAnimation.prototype._addObjs=function(n){
+var o=n.objId;
+var e=n.aType;
+var t=o+Dwt.getNextId();
+this._objIdAndAnimationTypeMap[t]=n;
+this._objsToAnimate.push(t)
+};
+SeriesAnimation.prototype._animate=function(s){
+var n=s.objId;
+var t=s.aType;
+if(n.indexOf("__PAUSE__")==-1&&!document.getElementById(n)){
+this.reset();
+return
+}
+if(n.indexOf("__PAUSE__")==-1){
+document.getElementById(n).style.display="block"
+}
+if(t=="FADEOUT"){
+var r=s.endingOpac?s.endingOpac:0;
+this._animateOpacity(n,100,r,500)
+}else{
+if(t=="PAUSE"){
+this._animatePause(s.millisecs)
+}else{
+if(t=="FADEIN"){
+var r=s.endingOpac?s.endingOpac:100;
+this._animateOpacity(n,0,r,500)
+}else{
+if(t=="SLIDEUP"){
+var o=s.endHeightPercent?s.endHeightPercent:100;
+this._animateSliding(n,o,t,500)
+}else{
+if(t=="SLIDEDOWN"){
+var o=s.endHeightPercent?s.endHeightPercent:0;
+this._animateSliding(n,o,t,500)
+}else{
+if(t=="ZOOMIN"){
+var e=s.zoomByThisPixels?s.zoomByThisPixels:0;
+this._animateZoomIn(s)
+}}}}}}};
+SeriesAnimation.prototype._animateZoomIn=function(h){
+var n=document.getElementById(h.objId);
+var r=n.style;
+var o=h.objWidth;
+var e=h.objHeight;
+var t=h.zoomByThisPixels;
+var s=2;
+var l=0;
+for(i=0;
+i<t;
+i++){
+if(i==t-1){
+setTimeout(AjxCallback.simpleClosure(this._zoomInItem,this,r,(o+i),(e+i),true),(l*s))
+}else{
+setTimeout(AjxCallback.simpleClosure(this._zoomInItem,this,r,(o+i),(e+i),false),(l*s))
+}
+l++
+}};
+SeriesAnimation.prototype._zoomInItem=function(n,o,e,t){
+n.width=o;
+n.height=e;
+if(t){
+this._animateNextItem()
+}};
+SeriesAnimation.prototype._animateSliding=function(o,t,e,n){
+var s=Math.round(n/100);
+var l=0;
+var r=document.getElementById(o).style;
+var h=Math.round(document.getElementById(o).offsetHeight);
+if(e=="SLIDEUP"){
+for(i=h;
+i<=t;
+i++){
+if(i==t){
+setTimeout(AjxCallback.simpleClosure(this._changeHeight,this,i,r,true),(l*s))
+}else{
+setTimeout(AjxCallback.simpleClosure(this._changeHeight,this,i,r,false),(l*s))
+}
+l++
+}}else{
+if(e=="SLIDEDOWN"){
+for(i=h;
+i>=t;
+i--){
+if(i==t){
+setTimeout(AjxCallback.simpleClosure(this._changeHeight,this,i,r,true),(l*s))
+}else{
+setTimeout(AjxCallback.simpleClosure(this._changeHeight,this,i,r,false),(l*s))
+}
+l++
+}}}};
+SeriesAnimation.prototype._animateOpacity=function(l,s,e,t){
+var h=document.getElementById(l);
+if(!h){
+this.reset();
+return
+}
+this._changeOpac(s,h.style);
+var o=Math.round(t/100);
+var r=0;
+var n=h.style;
+if(s>e){
+for(i=s;
+i>=e;
+i--){
+if(i==e){
+setTimeout(AjxCallback.simpleClosure(this._changeOpac,this,i,n,true),(r*o))
+}else{
+setTimeout(AjxCallback.simpleClosure(this._changeOpac,this,i,n,false),(r*o))
+}
+r++
+}}else{
+if(s<e){
+for(i=s;
+i<=e;
+i++){
+if(i==e){
+setTimeout(AjxCallback.simpleClosure(this._changeOpac,this,i,n,true),(r*o))
+}else{
+setTimeout(AjxCallback.simpleClosure(this._changeOpac,this,i,n,false),(r*o))
+}
+r++
+}}}};
+SeriesAnimation.prototype._changeHeight=function(e,o,t){
+o.height=e;
+if(t){
+this._animateNextItem()
+}};
+SeriesAnimation.prototype._changeOpac=function(t,o,e){
+if(!o){
+return
+}
+o.opacity=(t/100);
+o.MozOpacity=(t/100);
+o.KhtmlOpacity=(t/100);
+o.zoom=1;
+o.filter="progid:DXImageTransform.Microsoft.Alpha(opacity="+t+")";
+if(e){
+this._animateNextItem()
+}};
+SeriesAnimation.prototype._animateNextItem=function(){
+if(this._objsToAnimate.length==0){
+return
+}
+var e=this._objsToAnimate[0];
+var t=this._objIdAndAnimationTypeMap[e];
+this._objsToAnimate.splice(0,1);
+this._animate(t)
+};
+SeriesAnimation.prototype._animatePause=function(e){
+setTimeout(AjxCallback.simpleClosure(this._animateNextItem,this),e)
+};
+function UnknownPersonSlide(){}
+UnknownPersonSlide.PHOTO_ID="unkownPerson_photoBG";
+UnknownPersonSlide.PHOTO_PARENT_ID="unkownPerson_photoBGDiv";
+UnknownPersonSlide.TEXT_DIV_ID="unkownPerson_TextDiv";
+UnknownPersonSlide.DOMAIN="";
+UnknownPersonSlide.WIDTH=65;
+UnknownPersonSlide.HEIGHT=80;
+UnknownPersonSlide.prototype.onEmailHoverOver=function(e){
+e.addSubscriberZimlet(this,false);
+this.emailZimlet=e;
+this._alwaysSetTooltipToSmall();
+this._presenceCache=this.emailZimlet._presenceCache
+};
+UnknownPersonSlide.prototype._alwaysSetTooltipToSmall=function(){
+var t=EmailToolTipPrefDialog.DIMENSIONS[EmailToolTipPrefDialog.SIZE_VERYSMALL];
+var e=t.replace(/px/ig,"");
+var o=e.split(" x ");
+this._tooltipWidth=o[0];
+this._tooltipHeight=o[1]
+};
+UnknownPersonSlide.prototype.showTooltip=function(){
+if(appCtxt.get(ZmSetting.CALENDAR_ENABLED)){
+this._setCalendarFrame()
+}
+if(appCtxt.get(ZmSetting.MAIL_ENABLED)){
+this._setMailFrame()
+}
+this._setContactFrame();
+this.emailZimlet.tooltip.popup(this.emailZimlet.x,this.emailZimlet.y,true,null);
+this._slide.select()
+};
+UnknownPersonSlide.prototype._setContactFrame=function(){
+this.emailZimlet.hideBusyImg();
+var t=this._getTooltipBGHtml();
+var e=new AjxCallback(this,this._handleContactSlideSelect);
+this._slide=new EmailToolTipSlide(t,true,"UnknownPerson_contact",e,this.emailZimlet.getMessage("slideTooltip"));
+this.emailZimlet.slideShow.addSlide(this._slide);
+this._mainDiv=document.getElementById(UnknownPersonSlide.TEXT_DIV_ID);
+this._slide.setCanvasElement(this._mainDiv)
+};
+UnknownPersonSlide.prototype._setMailFrame=function(){
+var t=new AjxCallback(this,this._handleMailSlideSelect);
+var e=new EmailToolTipSlide(null,true,"Mail_icon",t,this.emailZimlet.getMessage("slideMailTooltip"));
+this.emailZimlet.slideShow.addSlide(e)
+};
+UnknownPersonSlide.prototype._setCalendarFrame=function(){
+var t=new AjxCallback(this,this._handleCalendarSlideSelect);
+var e=new EmailToolTipSlide(null,true,"Calendar_icon",t,this.emailZimlet.getMessage("slideCalendarTooltip"));
+this.emailZimlet.slideShow.addSlide(e)
+};
+UnknownPersonSlide.prototype._setChatFrame=function(){
+var t=this._handleChatSlideSelect.bind(this);
+var e=new EmailToolTipSlide(null,true,"Conversation_icon",t,this.emailZimlet.getMessage("slideChatTooltip"));
+this.emailZimlet.slideShow.addSlide(e)
+};
+UnknownPersonSlide.prototype._setPresence=function(){};
+UnknownPersonSlide.prototype._handleImgLoadFailure=function(){
+var e=new Image();
+e.onload=AjxCallback.simpleClosure(this._handleImageLoad,this,e);
+e.id=UnknownPersonSlide.PHOTO_ID;
+e.src=this.emailZimlet.getResource("img/UnknownPerson_dataNotFound.jpg")
+};
+UnknownPersonSlide.prototype._handleImageLoad=function(e){
+this.emailZimlet.hideBusyImg();
+var t=document.getElementById(UnknownPersonSlide.PHOTO_PARENT_ID);
+if(!t){
+return
+}
+t.innerHTML="";
+t.style.textAlign="center";
+t.appendChild(e);
+if(this.emailZimlet.emailAddress.indexOf(UnknownPersonSlide.DOMAIN)!=-1){
+e.onclick=AjxCallback.simpleClosure(this._handleProfileImageClick,this);
+e.style.cursor="pointer"
+}};
+UnknownPersonSlide.prototype._handleProfileImageClick=function(){};
+UnknownPersonSlide.prototype._handleAllClicks=function(o){
+var n;
+this.emailZimlet.popdown();
+o=DwtUiEvent.getEvent(o);
+if(o.which){
+n=(o.which==3)
+}else{
+if(o.button){
+n=(o.button==2)
+}}
+if(n){
+return
+}
+var t=DwtShell.mouseEvent;
+t.setFromDhtmlEvent(o);
+var e=t.target;
+if(e.id=="UnknownPersonSlide_EmailAnchorId"){
+this._composeListener(null,this.emailZimlet.emailAddress)
+}else{
+if(e.id=="UnknownPersonSlide_NameAnchorId"){
+this._contactListener(true)
+}else{
+if(e.id=="UnknownPersonSlide_mobilePhoneAnchorId"&&appCtxt.getSettings()._hasVoiceFeature()){
+this.emailZimlet._phoneListener(this.attribs&&this.attribs.mobilePhone)
+}else{
+if(e.id=="UnknownPersonSlide_workPhoneAnchorId"&&appCtxt.getSettings()._hasVoiceFeature()){
+this.emailZimlet._phoneListener(this.attribs&&this.attribs.workPhone)
+}else{
+if(e.id=="UnknownPersonSlide_imAnchorId"&&appCtxt.getSettings()._hasVoiceFeature()){
+ZmZimbraMail.unloadHackCallback();
+location.href=this.imURI;
+this.emailZimlet._imListener(this.imURI);
+return false
+}}}}}};
+UnknownPersonSlide.prototype._handleRightClick=function(t){
+var e;
+if(!t){
+var t=window.event
+}
+if(t.which){
+e=(t.which==3)
+}else{
+if(t.button){
+e=(t.button==2)
+}}
+if(!e){
+return
+}
+this.emailZimlet.popdown();
+DwtUiEvent.setBehaviour(t,true,false);
+this.emailZimlet.contextMenu.popup(100,this.emailZimlet.x,this.emailZimlet.y)
+};
+UnknownPersonSlide.prototype._handleContactSlideSelect=function(){
+if(this._slide.loaded){
+return
+}
+this._slide.loaded=true;
+this._getContactDetailsAndShowTooltip()
+};
+UnknownPersonSlide.prototype._handleMailSlideSelect=function(){
+this.emailZimlet.popdown();
+this._composeListener(null,this.emailZimlet.emailAddress)
+};
+UnknownPersonSlide.prototype._handleCalendarSlideSelect=function(){
+this.emailZimlet.popdown();
+var e=new ZmAppt();
+var t=this._getActionedContact()||new AjxEmailAddress(this.emailZimlet.emailAddress);
+e.setAttendees(t,ZmCalBaseItem.PERSON);
+AjxDispatcher.run("GetCalController").newAppointment(e,null,null,null)
+};
+UnknownPersonSlide.prototype._handleChatSlideSelect=function(){
+this.emailZimlet.popdown();
+appCtxt.getAppController().getApp(ZmApp.CHAT).startChat(this.xmppURI)
+};
+UnknownPersonSlide.prototype._getContactDetailsAndShowTooltip=function(){
+this._slide.setInfoMessage(this.emailZimlet.getMessage("loading"));
+var e=AjxDispatcher.run("GetContacts");
+var t=e?e.getContactByEmail(this.emailZimlet.emailAddress):null;
+if(!appCtxt.get(ZmSetting.GAL_ENABLED)){
+this._handleContactDetails(t)
+}else{
+var r,n,o;
+r={
+SearchGalRequest:{
+_jsns:"urn:zimbraAccount"}};
+n=r.SearchGalRequest;
+n.type="account";
+n.name=this.emailZimlet.emailAddress;
+n.offset=0;
+n.limit=3;
+var s=new AjxCallback(this,this._handleContactDetails,t);
+appCtxt.getAppController().sendRequest({
+jsonObj:r,asyncMode:true,callback:s,noBusyOverlay:true}
+)
+}};
+UnknownPersonSlide.prototype._handleContactDetails=function(e,t){
+var o={};
+var c=null;
+if(t){
+var s=t.getResponse();
+var n=s.SearchGalResponse;
+var l=n.cn;
+if(l&&l[0]){
+c=l[0].id;
+o=AjxUtil.hashCopy(l[0]._attrs,["objectClass"])
+}}
+if(e&&e.attr){
+AjxUtil.hashUpdate(o,e.attr,true)
+}
+o.fullName=this.emailZimlet.fullName||o.fullName||e&&e._fileAs;
+this._presentity=o.email=this.emailZimlet.emailAddress||o.email;
+var h=e&&e.getImageUrl(UnknownPersonSlide.WIDTH,UnknownPersonSlide.HEIGHT);
+this._setProfileImage(h);
+this._setContactDetails(o);
+this._popupToolTip();
+this._setPresenceUI()
+};
+UnknownPersonSlide.prototype._getPresence=function(){
+var e=new Date();
+var t=this._presenceCache[this._presentity]&&this._presenceCache[this._presentity].timestamp||0;
+if(e-t<5000){
+return this._presenceCache[this._presentity]
+}
+if(this.emailZimlet._presenceProvider){
+this.emailZimlet._presenceProvider(this._presentity,this._handlePresence.bind(this))
+}
+return null
+};
+UnknownPersonSlide.prototype._handlePresence=function(t){
+if(!t){
+return
+}
+var e=this._presenceCache[this._presentity];
+if(!e){
+e=this._presenceCache[this._presentity]={}
+}
+e.presenceStatus=t.presenceStatus;
+e.notes=t.notes;
+e.timestamp=new Date();
+this._setPresenceUI()
+};
+UnknownPersonSlide.prototype._popupToolTip=function(){
+this.emailZimlet.tooltip.popup(this.emailZimlet.x,this.emailZimlet.y,true,null)
+};
+UnknownPersonSlide.prototype._getTooltipBGHtml=function(e){
+var o=";";
+var n=";";
+if(AjxEnv.isIE8){
+var o="width:100%;";
+var n="left:3%;"
+}
+var t={
+photoParentId:UnknownPersonSlide.PHOTO_PARENT_ID,textDivId:UnknownPersonSlide.TEXT_DIV_ID,width:o,left:n};
+return AjxTemplate.expand("com_zimbra_email.templates.Email1#Frame",t)
+};
+UnknownPersonSlide.prototype._setContactDetails=function(u){
+if(u.workState||u.workCity||u.workStreet||u.workPostalCode){
+var h=u.workState||"";
+var s=u.workCity||"";
+var w=u.workStreet||"";
+var g=u.workPostalCode||"";
+var y=this.emailZimlet.getMessage("postalAddress");
+var f=new AjxMessageFormat(y);
+var o=[w,s,h,g];
+var n=AjxStringUtil.trim(f.format(o),true);
+u.address=AjxStringUtil.trim(n)
+}
+var l=u.imAddress||u.imAddress1||u.imAddress2||u.imAddress3;
+if(l){
+var e=l.split(":");
+if(e.length==2){
+var b=e[0];
+l=l.split(":")[1];
+if(b&&b=="xmpp"){
+if(appCtxt.get(ZmSetting.CHAT_FEATURE_ENABLED)&&appCtxt.get(ZmSetting.CHAT_ENABLED)){
+var m=appCtxt.getAppController().getApp(ZmApp.CHAT);
+if(m&&m.getRosterContact(l.substring(2))){
+this.xmppURI=u.xmppURI=AjxStringUtil.htmlEncode(l.substring(2));
+this._setChatFrame()
+}}}else{
+if(b&&b=="other"){
+b="im"
+}else{
+if(b&&b=="aol"){
+b="aim"
+}}
+l="<a  id='UnknownPersonSlide_imAnchorId' href='"+b+":"+AjxStringUtil.htmlEncode(l.substring(2))+"'>"+AjxStringUtil.htmlEncode(l.substring(2))+"</a>";
+this.imURI=u.imURI=l
+}}}else{
+if(appCtxt.get(ZmSetting.CHAT_FEATURE_ENABLED)&&appCtxt.get(ZmSetting.CHAT_ENABLED)){
+var m=appCtxt.getAppController().getApp(ZmApp.CHAT);
+if(m){
+for(var p=0;
+p<4;
+p++){
+var r="email"+((p==0)?"":p);
+if(u[r]&&m.getRosterContact(u[r])){
+this.xmppURI=AjxStringUtil.htmlEncode(u[r]);
+this._setChatFrame();
+break
+}}}}}
+if(!this.emailZimlet.noRightClick){
+u.rightClickForMoreOptions=false
+}
+this.attribs=u;
+u=this._formatTexts(u);
+var c=AjxTemplate.expand("com_zimbra_email.templates.Email1#ContactDetails",u),t=document.getElementById(UnknownPersonSlide.TEXT_DIV_ID),d=document.getElementById("UnknownPersonSlide_Frame");
+if(t){
+t.innerHTML=c
+}
+if(d){
+d.onmouseup=AjxCallback.simpleClosure(this._handleAllClicks,this)
+}};
+UnknownPersonSlide.prototype._formatTexts=function(t){
+var e=t.email?t.email:"";
+t.formattedEmail=e;
+if(e.length>25){
+var o=e.split("@");
+var n=o[0];
+var r=o[1];
+if(n.length>25){
+n=n.substring(0,24)+".."
+}
+t.formattedEmail=[n," @",r].join("")
+}
+var s=t.fullName?t.fullName:"";
+if(s==e){
+t.fullName=""
+}
+return t
+};
+UnknownPersonSlide.prototype._setProfileImage=function(n){
+var o=document.getElementById(UnknownPersonSlide.PHOTO_PARENT_ID);
+if(!o||!this.emailZimlet.emailAddress){
+return
+}
+if(this.emailZimlet.emailAddress.indexOf(UnknownPersonSlide.DOMAIN)==-1||!n||!o){
+this._handleImgLoadFailure();
+return
+}
+o.width=o.style.width=UnknownPersonSlide.WIDTH;
+o.height=o.style.height=UnknownPersonSlide.HEIGHT;
+var t=new Image();
+t.onload=AjxCallback.simpleClosure(this._handleImageLoad,this,t);
+t.onerror=function(){
+this.onerror=null;
+this.src=ZmZimbraMail.DEFAULT_CONTACT_ICON
+};
+t.src=n;
+var e=new AjxCallback(this,this._handleImgLoadFailure);
+this.emailZimlet.showLoadingAtId(e,UnknownPersonSlide.PHOTO_PARENT_ID)
+};
+UnknownPersonSlide.prototype._contactListener=function(){
+this.emailZimlet.popdown();
+var e=new AjxCallback(this,this._handleLoadContact);
+AjxDispatcher.require(["ContactsCore","Contacts"],false,e,null,true)
+};
+UnknownPersonSlide.prototype._handleLoadContact=function(){
+var e=this._getActionedContact(true);
+var t=this._isNewContact;
+if(window.parentAppCtxt){
+var o=window.parentAppCtxt.getApp(ZmApp.CONTACTS);
+o.getContactController().show(e,t)
+}else{
+AjxDispatcher.run("GetContactController").show(e,t)
+}};
+UnknownPersonSlide.prototype._composeListener=function(t,s){
+this.emailZimlet.popdown();
+var o=this.emailZimlet._actionObject;
+s=s?this.emailZimlet._getAddress(s):(o?this.emailZimlet._getAddress(o):"");
+var n={};
+var e=(!appCtxt.get(ZmSetting.NEW_WINDOW_COMPOSE)&&t&&t.shiftKey)||(appCtxt.get(ZmSetting.NEW_WINDOW_COMPOSE)&&t&&!t.shiftKey);
+n.action=ZmOperation.NEW_MESSAGE;
+n.inNewWindow=e;
+if(!n.toOverride){
+n.toOverride=s+AjxEmailAddress.SEPARATOR
+}
+if(o&&o.isAjxEmailAddress&&o.address==s){
+n.toOverride=o
+}
+AjxDispatcher.run("Compose",n)
+};
+UnknownPersonSlide.prototype._getActionedContact=function(t){
+var e;
+var o=this.emailZimlet._actionObject;
+if(o){
+if(o.isZmContact){
+e=this._actionObject
+}else{
+if(AjxUtil.isString(o)){
+o=this.emailZimlet._getAddress(o);
+e=AjxDispatcher.run("GetContacts").getContactByEmail(o)
+}else{
+e=AjxDispatcher.run("GetContacts").getContactByEmail(o.address)
+}}}
+this._isNewContact=false;
+if(e==null&&t){
+this._isNewContact=true;
+e=new ZmContact(null);
+e.initFromEmail(o)
+}
+return e
+};
+UnknownPersonSlide.prototype._isKnownPresenceCode=function(o){
+if(!this._presenceCodes){
+var e=["dnd","vacation","on-the-phone","busy","unavailable","away","available","unknown"];
+this._presenceCodes={};
+for(var t=0;
+t<e.length;
+t++){
+this._presenceCodes[e[t]]=true
+}}
+return this._presenceCodes[o]
+};
+UnknownPersonSlide.prototype._setPresenceUI=function(){
+var o=this._getPresence();
+var n=o&&o.presenceStatus;
+var s=document.getElementById("row_Presence");
+var r=document.getElementById("img_Presence");
+var t=document.getElementById("text_Presence");
+if(!s||!r||!t){
+return
+}
+if(n){
+if(!this._isKnownPresenceCode(n)){
+n="unknown"
+}
+s.style.display="";
+var e=n.split("-").join("");
+r.className="Img_"+e;
+if(o.notes){
+t.innerHTML=o.notes
+}else{
+t.innerHTML=this.emailZimlet.getMessage("msg_"+e)
+}}else{
+s.style.display="none"
+}
+return
+};
+Com_Zimbra_Date=function(e){
+if(arguments.length==1){
+this._generateRegex(e)
+}};
+Com_Zimbra_Date.prototype=new ZmZimletBase();
+Com_Zimbra_Date.prototype.constructor=Com_Zimbra_Date;
+Com_Zimbra_Date.prototype.TYPE=ZmObjectManager.DATE;
+Com_Zimbra_Date.validate=function(e,n,t){
+if(e<1||e>31){
+return false
+}
+if(n<0||n>11){
+return false
+}
+if((n==3||n==5||n==8||n==10)&&e==31){
+return false
+}
+if(t&&n==1){
+var o=(t%4==0&&(t%100!=0||t%400==0));
+if(e>29||(e==29&&!o)){
+return false
+}}
+return true
+};
+Com_Zimbra_Date.prototype.getCurrentDate=function(e){
+var t=this[ZmObjectManager.ATTR_CURRENT_DATE];
+return t?t:new Date()
+};
+Com_Zimbra_Date.prototype.init=function(){
+Com_Zimbra_Date.prototype._zimletContext=this._zimletContext;
+Com_Zimbra_Date.prototype._className="Object";
+this._initDateObjectHandlers()
+};
+Com_Zimbra_Date.prototype.getActionMenu=function(o,t,e){
+if(this._zimletContext._contentActionMenu instanceof AjxCallback){
+this._zimletContext._contentActionMenu=this._zimletContext._contentActionMenu.run()
+}
+Com_Zimbra_Date._actionObject=o;
+Com_Zimbra_Date._actionSpan=t;
+Com_Zimbra_Date._actionContext=e;
+return this._zimletContext._contentActionMenu
+};
+Com_Zimbra_Date.prototype.menuItemSelected=function(e){
+switch(e){
+case"DAYVIEW":this.showDayView(Com_Zimbra_Date._actionContext.date);
+break;
+case"NEWAPPT":this._newApptListener();
+break;
+case"SEARCHMAIL":this._searchMailListener();
+break
+}};
+Com_Zimbra_Date.prototype.toolTipPoppedUp=function(n,s,o,t){
+var r=this.getAppInMainWindow(ZmApp.CALENDAR);
+if(!r){
+return
+}
+var e=o?o.date:new Date();
+if(!isNaN(e)){
+t.innerHTML=r.getDateToolTip(e,true)
+}};
+Com_Zimbra_Date.prototype.getMainWindow=function(e){
+return appCtxt.isChildWindow?window.opener:window
+};
+Com_Zimbra_Date.prototype.getAppInMainWindow=function(o){
+var t=this.getMainWindow();
+if(!t){
+return null
+}
+var e=t.appCtxt;
+if(!e){
+return null
+}
+return e.getApp(o)
+};
+Com_Zimbra_Date.prototype.clicked=function(o,n,t,e){
+this.showDayView(t.date)
+};
+Com_Zimbra_Date.prototype.showDayView=function(e){
+var t=this.getAppInMainWindow(ZmApp.CALENDAR);
+if(!t){
+return
+}
+t.showDayView(e);
+if(appCtxt.isChildWindow){
+window.opener.focus()
+}};
+Com_Zimbra_Date.prototype.match=function(p,u){
+if(!Com_Zimbra_Date.PATTERNS){
+return null
+}
+var r,t,c,f,n,s;
+for(s=0;
+s<Com_Zimbra_Date.REGEXES.length;
+s++){
+f=Com_Zimbra_Date.REGEXES[s];
+f.lastIndex=u;
+n=f.exec(p);
+if(n&&n[0]&&(!r||n[0].length>r[0].length)){
+r=n;
+c=Com_Zimbra_Date.RULES[s];
+t=f.mapping;
+break
+}}
+if(!r){
+return null
+}
+try{
+var h,d;
+for(s in t){
+h=t[s];
+d=r[s];
+c=c.replace(new RegExp("\\{"+h+"\\}","gi"),d)
+}
+var o=new Date(this.getCurrentDate().getTime());
+r.context={
+rule:c,date:AjxDateUtil.calculate(c,o),monthOnly:0,valid:true};
+return r
+}
+catch(l){
+if(window.console&&window.console.log){
+console.log(l)
+}
+return null
+}};
+Com_Zimbra_Date.prototype._initDateObjectHandlers=function(){
+if(!appCtxt.get(ZmSetting.CALENDAR_ENABLED)){
+return
+}
+Com_Zimbra_Date.MAPPINGS={
+datenum:"(3[0-1]|0[1-9]|[1-2][0-9]|[1-9])",dayname:"("+AjxDateUtil.S_DAYNAME+")",weekord:"("+AjxDateUtil.S_WEEKORD+")",monthnum:"(0[1-9]|[1-9]|1[0-2])",monthname:"("+AjxDateUtil.S_MONTHNAME+")",yearnum:"(\\d{2}|[1-9]\\d{2,3})",fullyearnum:"(\\d{4})",number:"(\\d+)",timenum:"(1[0-2]:?[0-5][0-9]|[1-9]:?[0-5][0-9]|1[0-2]|[1-9])",militarytimenum:"(2[0-3]:?[0-5][0-9]|[0-1][0-9]:?[0-5][0-9])"};
+Com_Zimbra_Date.PATTERNS=[];
+Com_Zimbra_Date.RULES=[];
+Com_Zimbra_Date.REGEXES=[];
+var n,r;
+for(n=1;
+r=this.getMessage("format"+n+".pattern");
+n++){
+if(r.match(/^\?\?\?+/)){
+break
+}
+if(r.match(/^###+/)){
+break
+}
+if(r.match(/^#/)){
+continue
+}
+Com_Zimbra_Date.PATTERNS.push(r);
+Com_Zimbra_Date.RULES.push(this.getMessage("format"+n+".rule"))
+}
+for(n=0;
+n<Com_Zimbra_Date.DEFAULT_FORMATS.length;
+n++){
+Com_Zimbra_Date.PATTERNS.push(Com_Zimbra_Date.DEFAULT_FORMATS[n]);
+Com_Zimbra_Date.RULES.push(Com_Zimbra_Date.DEFAULT_FORMATS[++n])
+}
+var o=this.getMessage("boundaryTrue");
+var h,s;
+var e=this.getMessage("format.boundary")||o;
+for(n=0;
+n<Com_Zimbra_Date.PATTERNS.length;
+n++){
+r=Com_Zimbra_Date.PATTERNS[n];
+r=r.replace(/\s+/g,"\\s+");
+r=r.replace(/\(([^\)]+)\)/g,"(?:$1)");
+Com_Zimbra_Date.__replaceKeyword_group=1;
+Com_Zimbra_Date.__replaceKeyword_mapping={};
+r=r.replace(/\{([a-z]+)\}/g,Com_Zimbra_Date.__replaceKeyword);
+h=this.getMessage("format"+(n+1)+".boundary");
+if((h!=""&&h==o)||e==o){
+r="\\b"+r+"\\b"
+}
+var t=this.getMessage("format.caseSensitive")===o;
+s=new RegExp(r,"g"+(!t?"i":""));
+s.mapping=Com_Zimbra_Date.__replaceKeyword_mapping;
+Com_Zimbra_Date.REGEXES.push(s)
+}
+ZmObjectManager.registerHandler(this,ZmObjectManager.DATE,this._zimletContext.priority)
+};
+Com_Zimbra_Date.prototype._newApptListener=function(){
+var t=this.getMainWindow();
+if(!t){
+return
+}
+var e=new t.AjxCallback(this,this._handleLoadNewAppt);
+t.AjxDispatcher.require(["CalendarCore","Calendar","CalendarAppt"],false,e,null,true)
+};
+Com_Zimbra_Date.prototype._handleLoadNewAppt=function(){
+var e=this.getMainWindow();
+if(!e){
+return null
+}
+e.appCtxt.getAppViewMgr().popView(true,ZmId.VIEW_LOADING);
+e.AjxDispatcher.run("GetCalController").newAppointmentHelper(Com_Zimbra_Date._actionContext.date);
+if(appCtxt.isChildWindow){
+window.opener.focus()
+}};
+Com_Zimbra_Date.prototype._searchMailListener=function(){
+var e=this.getMainWindow(ZmApp.CALENDAR);
+if(!e){
+return
+}
+e.appCtxt.getSearchController().dateSearch(Com_Zimbra_Date._actionContext.date);
+if(appCtxt.isChildWindow){
+window.opener.focus()
+}};
+Com_Zimbra_Date.__replaceKeyword_mapping=null;
+Com_Zimbra_Date.__replaceKeyword_group=-1;
+Com_Zimbra_Date.__replaceKeyword=function(e,t){
+var n=Com_Zimbra_Date.MAPPINGS;
+t=t.toLowerCase();
+if(!n[t]){
+return e
+}
+var o=Com_Zimbra_Date.__replaceKeyword_mapping;
+var s=Com_Zimbra_Date.__replaceKeyword_group++;
+o[s++]=t;
+return n[t]
+};
+Com_Zimbra_Date.DEFAULT_FORMATS=["Dante Mateo Comfort","2011-03-01T17:26:00Z","Brooke Ellen Henrikson","2009-10-17T10:20:00Z","Nicholas Mateo Damon","2008-07-18T17:35:00Z","Shyar Parag Shah","2008-07-16T04:51:00Z","Diego Isaac Comfort","2006-12-08T20:05:00Z","Nila Dharmaraj","2006-03-19T16:30:00Z","Nikhil Dharmaraj","2001-08-22T20:00:00Z"];
+function com_zimbra_srchhltr_HandlerObject(){}
+com_zimbra_srchhltr_HandlerObject.prototype=new ZmZimletBase();
+com_zimbra_srchhltr_HandlerObject.prototype.constructor=com_zimbra_srchhltr_HandlerObject;
+var SearchHighlighterZimlet=com_zimbra_srchhltr_HandlerObject;
+SearchHighlighterZimlet.prototype.init=function(){
+this._searchController=appCtxt.getSearchController();
+this._spanIds=[]
+};
+SearchHighlighterZimlet.prototype.match=function(o,h){
+this._setRegExps();
+if(this._regexps.length==0){
+return
+}
+var t=this._regexps;
+var n=null;
+for(var s=0;
+s<t.length;
+++s){
+var r=t[s];
+r.lastIndex=h;
+var e=r.exec(o);
+if(e&&e[0]!=""){
+if(!n||e.index<n.index){
+n=e;
+n.matchLength=e[0].length;
+return n
+}}}
+return n
+};
+SearchHighlighterZimlet.prototype.generateSpan=function(n,e,r,s,o){
+var t=appCtxt.getCurrentApp();
+if(t&&t.isZmSearchApp){
+var h=Dwt.getNextId();
+this._spanIds.push(h);
+n[e++]=["<span id= '",h,"'class='ZmSearchResult'>",AjxStringUtil.htmlEncode(r),"</span>"].join("")
+}else{
+n[e++]=AjxStringUtil.htmlEncode(r)
+}
+return e
+};
+SearchHighlighterZimlet.prototype._getSearchWords=function(t){
+if(!t){
+return[]
+}
+var e=[];
+var n=(new ZmParsedQuery(t)).getTokens();
+for(var o=0;
+o<n.length;
+o++){
+if(n[o].op===ZmParsedQuery.OP_CONTENT&&(o==0||(n[o-1].op!==ZmParsedQuery.COND_NOT))){
+e.push(n[o].arg)
+}}
+return AjxUtil.uniq(e)
+};
+SearchHighlighterZimlet.prototype._setRegExps=function(){
+this._currentSearchQuery=(this._searchController.currentSearch)?this._searchController.currentSearch.query:null;
+if(!this._oldSearchQuery||this._currentSearchQuery!=this._oldSearchQuery){
+var r=this._getSearchWords(this._currentSearchQuery);
+this._regexps=[];
+try{
+var s,o,h;
+for(var t=0;
+t<r.length;
+t++){
+o=r[t];
+h=o[o.length-1]=="*"?true:false;
+o=o.replace(/^\W*/,"").replace(/\W*$/,"");
+o=AjxStringUtil.regExEscape(o);
+if(h){
+o=o.concat("\\S*")
+}
+if(s){
+s=s+"|"+o
+}else{
+s=o
+}}
+if(s){
+s="\\b("+s+")\\b";
+this._regexps.push(new RegExp(s,"ig"))
+}}
+catch(n){
+this._regexps=[]
+}
+this._oldSearchQuery=this._currentSearchQuery
+}};
+SearchHighlighterZimlet.prototype.onParticipantActionMenuInitialized=function(e,t){
+this.onActionMenuInitialized(e,t)
+};
+SearchHighlighterZimlet.prototype.onActionMenuInitialized=function(e,t){
+this.addMenuButton(e,t)
+};
+SearchHighlighterZimlet.prototype.addMenuButton=function(t,s){
+var e="COM_ZIMBRA_SEARCH_WORD_HIGHLIGHTER_ZIMLET";
+var n=this.getMessage("SearchHighlighterZimlet_MenuLabel");
+if(!s.getMenuItem(e)){
+var r={
+id:e,text:n,image:"search"};
+var o=ZmOperation.defineOperation(null,r);
+s.addOp(e,1000);
+s.addSelectionListener(e,new AjxListener(this,this._clearSearchWordHighlights,t))
+}};
+SearchHighlighterZimlet.prototype._clearSearchWordHighlights=function(s){
+var h=appCtxt.getAppViewMgr().getCurrentView();
+var l;
+if(h.getItemView){
+l=h.getItemView()
+}else{
+if(h.getMsgView){
+l=h.getMsgView()
+}}
+if(!l){
+return
+}
+var e=l.getDocument();
+if(!e){
+var t=l.getHTMLElId();
+if(t){
+var c=document.getElementById(t+"_body__iframe");
+if(!AjxEnv.isIE){
+if(c){
+e=c.contentDocument
+}}else{
+if(c){
+e=c.contentWindow.document
+}}}}
+for(var n=0;
+n<this._spanIds.length;
+n++){
+var o=document.getElementById(this._spanIds[n]);
+var r;
+if(e!=undefined||e!=null){
+r=e.getElementById(this._spanIds[n])
+}
+if((o!=undefined)&&(o.className!=undefined)){
+o.className=""
+}
+if((r!=undefined)&&(r.className!=undefined)){
+r.className=""
+}}
+this._spanIds=[]
+};
+ZmArchiveZimlet=function(){
+this._msgMap={}
+};
+ZmArchiveZimlet.prototype=new ZmZimletBase();
+ZmArchiveZimlet.prototype.constructor=ZmArchiveZimlet;
+ZmArchiveZimlet.OP_ARCHIVE="ARCHIVE";
+ZmArchiveZimlet.OP_SEND_ARCHIVE="SEND_ARCHIVE";
+ZmArchiveZimlet.view="message";
+ZmArchiveZimlet.prototype.init=function(){
+this.metaData=appCtxt.getActiveAccount().metaData;
+this.metaData.get("archiveZimlet",null,new AjxCallback(this,this._handleGetMetaData))
+};
+ZmListController.prototype._doArchiveViaZimlet=function(t,e,o){
+var n=appCtxt.getById(e._archiveFolderId);
+if(!t||(!o&&!n)){
+e.resetArchiveFolder();
+this._archiveViaZimletListener(e);
+return
+}
+this._doMove(this._pendingActionData,t)
+};
+ZmListController.prototype._archiveViaZimletListener=function(e,t){
+this._pendingActionData=this.getSelection();
+var o=this._doArchiveViaZimlet.bind(this);
+if(!e._archiveFolder){
+e._chooseArchiveFolder(o)
+}else{
+o(e._archiveFolder,e,false)
+}};
+ZmArchiveZimlet.prototype.resetArchiveFolder=function(){
+this._archiveFolderId=null;
+this._archiveFolder=null
+};
+ZmArchiveZimlet.prototype._chooseArchiveFolder=function(o){
+var e=appCtxt.getChooseFolderDialog(ZmApp.MAIL);
+e.registerCallback(DwtDialog.OK_BUTTON,new AjxCallback(this,this._handleChooseFolder,o));
+var t={
+overviewId:e.getOverviewId(ZmApp.MAIL),appName:ZmApp.MAIL,skipReadOnly:true,skipRemote:false};
+e.popup(t)
+};
+ZmArchiveZimlet.prototype._canFolderArchive=function(e){
+var t=Number(e.nId);
+return t!==ZmFolder.ID_ROOT&&t!==ZmFolder.ID_DRAFTS&&!e.isInTrash()&&!e.isInSpam()&&!e.isOutbound()
+};
+ZmArchiveZimlet.prototype._handleChooseFolder=function(s,t){
+if(!this._canFolderArchive(t)){
+var n=appCtxt.getMsgDialog();
+n.reset();
+n.setMessage(this.getMessage("archiveInvalidFolder"),DwtMessageDialog.WARNING_STYLE);
+n.popup();
+return
+}
+var o=appCtxt.getChooseFolderDialog();
+o.popdown();
+this._archiveFolder=t;
+this._archiveFolderId=t.id;
+var e=this._getMetaKeyVal();
+this.metaData.set("archiveZimlet",e,null,this._saveAccPrefsHandler.bind(this),null,true);
+if(s){
+s(t,this,true)
+}};
+ZmArchiveZimlet.prototype._saveAccPrefsHandler=function(){
+appCtxt.getAppController().setStatusMsg(this.getMessage("archiveZimletPrefsSaved"),ZmStatusView.LEVEL_INFO)
+};
+ZmArchiveZimlet.prototype.initializeToolbar=function(n,m,l,p){
+if(appCtxt.isChildWindow){
+return
+}
+var r=appCtxt.getViewTypeFromId?appCtxt.getViewTypeFromId(p):appCtxt.getCurrentViewId();
+if(r==ZmId.VIEW_CONVLIST||r==ZmId.VIEW_CONV||r==ZmId.VIEW_TRAD||r==ZmId.VIEW_MSG){
+var e=0;
+for(var s=0,d=m.opList.length;
+s<d;
+s++){
+if(m.opList[s]==ZmOperation.DELETE||m.opList[s]==ZmOperation.DELETE_MENU){
+e=s;
+break
+}}
+var c={
+text:this.getMessage("label"),tooltip:this.getMessage("archiveButtonToolTip"),index:e,image:"archiveZimletIcon",showImageInToolbar:false,showTextInToolbar:true,enabled:false};
+if(!m.getOp(ZmArchiveZimlet.OP_ARCHIVE)){
+var h=m.createOp(ZmArchiveZimlet.OP_ARCHIVE,c);
+h.addSelectionListener(new AjxListener(l,l._archiveViaZimletListener,[this]));
+h.archiveZimlet=this;
+var u=l._resetOperations;
+l._resetOperations=function(x,v){
+u.apply(l,arguments);
+var k=x.getOp(ZmArchiveZimlet.OP_ARCHIVE);
+if(!k){
+return
+}
+var b=k.archiveZimlet;
+var w=b._archiveFolderId;
+var y=b._isArchiveEnabled(l,w,v);
+x.enable(ZmArchiveZimlet.OP_ARCHIVE,y)
+};
+var f=l.getListView?l.getListView():l.getList();
+if(f&&f.addSelectionListener){
+f.addSelectionListener(new AjxListener(this,this._listActionListener,h))
+}}}else{
+if(p.indexOf("COMPOSE")>=0&&this._archiveFolderId){
+var o=true;
+var t=l&&l.getMsg();
+if(!t){
+o=false
+}else{
+if(t.folderId==this._archiveFolderId||t.folderId==ZmFolder.ID_SENT||t.folderId==ZmFolder.ID_TRASH||t.folderId==ZmFolder.ID_SPAM){
+o=false
+}}
+var g=this.getMessage(this._isConvView()?"sendAndArchiveToolTipConv":"sendAndArchiveToolTip");
+var c={
+text:this.getMessage("sendAndArchiveButton"),tooltip:g,index:0,image:"archiveZimletIcon",showImageInToolbar:false,showTextInToolbar:true,enabled:true};
+if(!m.getOp(ZmArchiveZimlet.OP_SEND_ARCHIVE)&&this.isActionForArchive(l._action)&&this._showSendAndArchive&&o){
+var h=m.createOp(ZmArchiveZimlet.OP_SEND_ARCHIVE,c);
+h.addSelectionListener(new AjxListener(this,this.sendAndArchiveListener,[h]))
+}else{
+if(m.getOp(ZmArchiveZimlet.OP_SEND_ARCHIVE)){
+var h=m.getOp(ZmArchiveZimlet.OP_SEND_ARCHIVE);
+if(this._showSendAndArchive&&o){
+o=this.isActionForArchive(l._action)
+}
+h.setEnabled(true);
+h.setVisible(o);
+h.setToolTipContent(g)
+}}}}};
+ZmArchiveZimlet.prototype._isArchiveEnabled=function(e,n,o){
+if(!o){
+return false
+}
+var h=e.getSelection();
+for(var s=0;
+s<h.length;
+s++){
+var r=h[s];
+if(r.isZmConv){
+var t=r.msgFolder;
+if(!t){
+return true
+}
+for(var l in t){
+if(t[l]!=n){
+return true
+}}}else{
+if(r.folderId!=n){
+return true
+}}}
+return false
+};
+ZmArchiveZimlet.prototype.enableComposeToolbarButtons=function(o,e){
+var t=o.getOp(ZmArchiveZimlet.OP_SEND_ARCHIVE);
+if(t){
+t.setEnabled(e)
+}};
+ZmArchiveZimlet.prototype.isActionForArchive=function(e){
+if(!e){
+return false
+}
+if(e==ZmId.OP_REPLY||e==ZmId.OP_REPLY||e==ZmId.OP_REPLY_BY_EMAIL||e==ZmId.OP_REPLY_ALL||e==ZmId.OP_FORWARD||e==ZmId.OP_FORWARD_ATT||e==ZmId.OP_FORWARD_INLINE||e==ZmId.OP_FORWARD_BY_EMAIL||e==ZmId.OP_FORWARD_INLINE){
+return true
+}};
+ZmArchiveZimlet.prototype._handleGetMetaData=function(e){
+try{
+var t=e.getResponse().BatchResponse.GetMailboxMetadataResponse[0];
+if(t.meta&&t.meta[0]&&t.meta[0]._attrs){
+var n=t.meta[0]._attrs.hideDeleteButton;
+if(!n){
+this._hideDeletePref=false
+}else{
+if(n=="false"){
+this._hideDeletePref=false
+}else{
+this._hideDeletePref=true
+}}
+this._hideDeleteButton(this._hideDeletePref);
+var o=t.meta[0]._attrs.showSendAndArchive;
+if(!o){
+this._showSendAndArchive=false
+}else{
+if(o=="false"){
+this._showSendAndArchive=false
+}else{
+this._showSendAndArchive=true
+}}
+this._archiveFolderId=t.meta[0]._attrs.archivedFolder;
+if(this._archiveFolderId==-1){
+this._archiveFolderId=null;
+return
+}
+this._archiveFolder=appCtxt.getById(this._archiveFolderId);
+if(!this._archiveFolder){
+this._clearArchivedFolder()
+}}}
+catch(s){
+return
+}};
+ZmArchiveZimlet.prototype._setArchivedFolder=function(e){
+this._archiveFolder=e
+};
+ZmArchiveZimlet.prototype._clearArchivedFolder=function(){
+this._archiveFolder=null;
+this._achiveFolderId=null;
+var e=this._getMetaKeyVal();
+e.archivedFolder=-1;
+this.metaData.set("archiveZimlet",e,null,new AjxCallback(this,this._handleClearArchivedFolder),null,true)
+};
+ZmArchiveZimlet.prototype._handleClearArchivedFolder=function(){
+return
+};
+ZmArchiveZimlet.prototype.singleClicked=function(){
+this._showPreferenceDlg()
+};
+ZmArchiveZimlet.prototype.doubleClicked=function(){
+this.singleClicked()
+};
+ZmArchiveZimlet.prototype.menuItemSelected=function(e){
+switch(e){
+case"GENERAL_PREFERENCES":this._showPreferenceDlg();
+break
+}};
+ZmArchiveZimlet.prototype._showPreferenceDlg=function(){
+if(this._preferenceDialog){
+this._updatePrefView(this._archiveFolder,this);
+this._preferenceDialog.popup();
+return
+}
+this._preferenceView=new DwtComposite(this.getShell());
+this._preferenceView.getHtmlElement().style.overflow="auto";
+this._preferenceView.getHtmlElement().innerHTML=this._createPrefView();
+this._preferenceDialog=this._createDialog({
+title:this.getMessage("archivePrefsTitle"),view:this._preferenceView,standardButtons:[DwtDialog.OK_BUTTON,DwtDialog.CANCEL_BUTTON]}
+);
+this._preferenceDialog.setButtonListener(DwtDialog.OK_BUTTON,new AjxListener(this,this._okPreferenceBtnListener));
+var e=this.getMessage("archiveFolderBrowse");
+if(this._archiveFolder){
+e=this._archiveFolder.getPath(false)
+}
+this._folderTxt=new DwtText({
+parent:appCtxt.getShell(),parentElement:document.getElementById("ARCHIVE_ZIMLET_FOLDER"),index:0,id:"ARCHIVE_ZIMLET_FOLDER_TEXT",className:"FakeAnchor"}
+);
+this._folderTxt.isLinkText=true;
+this._folderTxt.setText(e);
+this._folderTxt.getHtmlElement().onclick=this._chooseArchiveFolder.bind(this,this._updatePrefView);
+this._preferenceDialog.popup()
+};
+ZmArchiveZimlet.prototype._createPrefView=function(){
+var t=this._hideDeletePref?"checked":"";
+var n=this._hideDeletePref?"":"checked";
+var o=this._showSendAndArchive?"":"checked";
+var e=this._showSendAndArchive?"checked":"";
+return["<div class='mailArchivePrefDialog'>","<table class='ZPropertySheet' cellspacing='6'>","<tr><td style='text-align:right;'>"+this.getMessage("archiveFolderPrefLabel")+": </td><td id='ARCHIVE_ZIMLET_FOLDER'></td></tr><tr><td style='text-align:right;'>"+this.getMessage("archiveHideDeleteButton")+": </td><td>","<table class='ZRadioButtonTable'><tr>","<td><input id='archiveHideDelete2' name='archiveHideDelete' value='false' "+n+" type='radio'/></td>","<td><label style='margin-right:1em;' for='archiveHideDelete2'>"+this.getMessage("archiveShow")+"</label></td>","<td><input id='archiveHideDelete1' name='archiveHideDelete' value='true' "+t+" type='radio'/></td>","<td><label for='archiveHideDelete1'>"+this.getMessage("archiveHide")+"</label></td>","</tr></table>","<tr><td style='text-align:right;'>"+this.getMessage("sendAndArchiveLabel")+":</td><td>","<table class='ZRadioButtonTable'><tr>","<td><input id='sendAndArchive2' name='sendAndArchive' value='true' "+e+" type='radio'/></td>","<td><label style='margin-right:1em;' for='sendAndArchive1'>"+this.getMessage("archiveShow")+"</label></td>","<td><input id='sendAndArchive1' name='sendAndArchive' value='false' "+o+" type='radio'/></td>","<td><label for='sendAndArchive1'>"+this.getMessage("archiveHide")+"</label></td>","</tr></table>","</td></tr>","</table>","</div>"].join("")
+};
+ZmArchiveZimlet.prototype._updatePrefView=function(e,t){
+if(e){
+t._folderTxt.setText(e.getPath(false))
+}};
+ZmArchiveZimlet.prototype._okPreferenceBtnListener=function(){
+if(!this._archiveFolderId){
+var l=appCtxt.getMsgDialog();
+l.reset();
+l.setMessage(this.getMessage("archiveMustChooseFolder"),DwtMessageDialog.WARNING_STYLE);
+l.popup();
+return
+}
+var r=this._hideDeletePref;
+var n=this._showSendAndArchive;
+var o=document.getElementById("archiveHideDelete1").checked;
+var h=document.getElementById("archiveHideDelete2").checked;
+var t=document.getElementById("sendAndArchive2").checked;
+var s=document.getElementById("sendAndArchive1").checked;
+this._preferenceDialog.popdown();
+this._hideDeletePref=o?true:false;
+this._showSendAndArchive=t?true:false;
+if(r==this._hideDeletePref&&n==this._showSendAndArchive){
+return
+}
+var e=this._getMetaKeyVal();
+this.metaData.set("archiveZimlet",e,null,new AjxCallback(this,this._handleSetArchivePrefs),null,true)
+};
+ZmArchiveZimlet.prototype._hideDeleteButton=function(n){
+if(appCtxt.getCurrentAppName()!==ZmApp.MAIL){
+return
+}
+var s=appCtxt.getApp(ZmApp.MAIL);
+var r=s.getMailListController();
+var o=r.getCurrentToolbar();
+if(!o){
+return
+}
+var e=o.getButton(ZmOperation.DELETE)||o.getButton(ZmOperation.DELETE_MENU);
+if(!e){
+return
+}
+var t=e.getHtmlElement();
+if(this._savedDelButtonDisplayStyle===undefined){
+this._savedDelButtonDisplayStyle=t.style.display
+}
+t.style.display=n?"none":this._savedDelButtonDisplayStyle
+};
+ZmArchiveZimlet.prototype._handleSetArchivePrefs=function(){
+this._hideDeleteButton(this._hideDeletePref);
+appCtxt.getAppController().setStatusMsg(this.getMessage("archiveZimletPrefsSaved"),ZmStatusView.LEVEL_INFO)
+};
+ZmArchiveZimlet.prototype.onSelectApp=function(e){
+if(e==ZmApp.MAIL&&this._hideDeletePref!=null&&!this.mailAlreadyLoaded){
+this._hideDeleteButton(this._hideDeletePref);
+this.mailAlreadyLoaded=true
+}};
+ZmArchiveZimlet.prototype.sendAndArchiveListener=function(e){
+if(e){
+e.setEnabled(false)
+}
+var t=appCtxt.getApp(ZmApp.MAIL).getComposeController(appCtxt.getApp(ZmApp.MAIL).getCurrentSessionId(ZmId.VIEW_COMPOSE));
+if(t&&t._msg&&t._msg.id){
+this._msgMap[t._msg.id]=true
+}
+t.sendMsg()
+};
+ZmArchiveZimlet.prototype._handleArchive=function(e){
+if(e&&e.Body&&e.Body.SendMsgResponse&&e.Body.SendMsgResponse.m){
+var t=e.Body.SendMsgResponse.m[0].id;
+this._msgMap[t]=true
+}};
+ZmArchiveZimlet.prototype.onSendButtonClicked=function(e,t){
+if(!t){
+return
+}
+var o=t.id||(t._origMsg&&t._origMsg.id);
+delete this._msgMap[o]
+};
+ZmArchiveZimlet.prototype.onSendMsgSuccess=function(e,s){
+var h=s.origId;
+if(!h){
+return
+}
+if(!this._msgMap[h]){
+return
+}
+delete this._msgMap[h];
+var o=appCtxt.getById(h);
+var t=appCtxt.getCurrentApp().getMailListController();
+if(this._isConvView()){
+var r=s.cid||(s._origMsg&&s._origMsg.cid);
+var n=r&&appCtxt.getById(r);
+o=n||o
+}
+t._doMove([o],this._archiveFolder)
+};
+ZmArchiveZimlet.prototype._isConvView=function(){
+return appCtxt.get(ZmSetting.GROUP_MAIL_BY)===ZmSetting.GROUP_BY_CONV
+};
+ZmArchiveZimlet.prototype._getMetaKeyVal=function(){
+var e=[];
+e.hideDeleteButton=this._hideDeletePref?"true":"false";
+e.showSendAndArchive=this._showSendAndArchive?"true":"false";
+e.archivedFolder=this._archiveFolderId;
+return e
+};
+function Com_Zimbra_YMEmoticons(){
+this.re=Com_Zimbra_YMEmoticons.REGEXP;
+this.reCaseSensitive=Com_Zimbra_YMEmoticons.REGEXP_CASE_SENSITIVE;
+this.hash=Com_Zimbra_YMEmoticons.SMILEYS;
+this._isEnabled=true
+}
+Com_Zimbra_YMEmoticons.prototype=new ZmZimletBase;
+Com_Zimbra_YMEmoticons.prototype.constructor=Com_Zimbra_YMEmoticons;
+Com_Zimbra_YMEmoticons.prototype.init=function(){
+var t;
+for(var e in this.hash){
+t=this.hash[e];
+t.alt=this.getMessage(t.alt)
+}};
+Com_Zimbra_YMEmoticons.prototype.createComposeButton=function(t){
+var o=t.parent;
+var e=new YMEmoticonsPickerButton({
+parent:t,className:"ZToolbarButton"}
+,true);
+e.dontStealFocus();
+e.setToolTipContent(ZmMsg.emoticons);
+e.setEmoticon(":)");
+e.addSelectionListener(new AjxListener(this,this._composeToolbarSmileyListener,[o]))
+};
+Com_Zimbra_YMEmoticons.prototype.on_htmlEditor_createToolbar2=function(t,e){
+this.createComposeButton(e)
+};
+Com_Zimbra_YMEmoticons.prototype.onFindMsgObjects=function(t,e){
+if(!this.enableInMail){
+this.enableInMail=Boolean(this.getUserProperty("yemoticons_enableInMail"))
+}
+if(t&&t.folderId==ZmOrganizer.ID_CHATS){
+e.addHandler(this);
+e.sortHandlers();
+e.__hasSmileysHandler=true
+}else{
+if(!e.__hasSmileysHandler&&this._isEnabled&&this.enableInMail){
+e.addHandler(this);
+e.sortHandlers();
+e.__hasSmileysHandler=true
+}
+if(e.__hasSmileysHandler&&(!this._isEnabled||!this.enableInMail)){
+e.removeHandler(this);
+e.sortHandlers();
+e.__hasSmileysHandler=false
+}}};
+Com_Zimbra_YMEmoticons.prototype.match=function(t,n){
+this.re.lastIndex=this.reCaseSensitive.lastIndex=n;
+var e=this.re.exec(t)||this.reCaseSensitive.exec(t);
+if(e){
+e.context=this.hash[e[1].toLowerCase()];
+var o=new Image();
+o.src=e.context.src;
+e.context.img=o
+}
+return e
+};
+Com_Zimbra_YMEmoticons.prototype.generateSpan=function(o,e,r,s,t){
+var n=t.height/2;
+if(AjxEnv.isIE){
+n="0px"
+}
+o[e++]=["<span style='height:",t.height,";width:",t.width,";padding:",n,"px ",t.width,"px ",n,"px 0; background:url(",t.img.src,") no-repeat 0 50%;'",' title="',AjxStringUtil.xmlAttrEncode(t.text)," - ",AjxStringUtil.xmlAttrEncode(t.alt),'"','><span style="visibility:hidden">a</span></span>'].join("");
+return e
+};
+Com_Zimbra_YMEmoticons.prototype._smileyListener=function(t,e){
+this._composeToolbarSmileyListener(t.getEditor(),e)
+};
+Com_Zimbra_YMEmoticons.prototype._composeToolbarSmileyListener=function(e,o){
+if(!e){
+return
+}
+var t=o.item.getSelectedSmiley();
+if(t){
+e.insertText(t.text);
+e.focus()
+}};
+Com_Zimbra_YMEmoticons.prototype.menuItemSelected=function(e){
+switch(e){
+case"YE_TEMP_DISABLE":this.temporarilyDisable();
+break;
+case"YE_PREFERENCES":this._showPreferenceDlg();
+break
+}};
+Com_Zimbra_YMEmoticons.prototype.doubleClicked=function(){
+this.singleClicked()
+};
+Com_Zimbra_YMEmoticons.prototype.singleClicked=function(){
+this._showPreferenceDlg()
+};
+Com_Zimbra_YMEmoticons.prototype.temporarilyDisable=function(){
+this._isEnabled=false;
+var e=[ZmToast.FADE_IN,ZmToast.PAUSE,ZmToast.FADE_OUT];
+appCtxt.getAppController().setStatusMsg(this.getMessage("yahoo_emoticons_toaster_temporarily_disabled"),ZmStatusView.LEVEL_INFO,null,e)
+};
+Com_Zimbra_YMEmoticons.prototype._showPreferenceDlg=function(){
+if(this._preferenceDialog){
+this._preferenceDialog.popup();
+return
+}
+this._preferenceView=new DwtComposite(this.getShell());
+this._preferenceView.getHtmlElement().style.overflow="auto";
+this._preferenceView.getHtmlElement().innerHTML=this._createPrefView();
+this._preferenceDialog=this._createDialog({
+title:this.getMessage("yahoo_emoticons_pref_dialog_title"),view:this._preferenceView,standardButtons:[DwtDialog.OK_BUTTON],id:"YahooEmoticonsPrefs"}
+);
+this._preferenceDialog.setButtonListener(DwtDialog.OK_BUTTON,new AjxListener(this,this._okPreferenceBtnListener));
+if(!this.enableInMail){
+this.enableInMail=Boolean(this.getUserProperty("yemoticons_enableInMail"))
+}
+document.getElementById("yemoticons_enableInMail_div").checked=this.enableInMail;
+this._preferenceDialog.popup()
+};
+Com_Zimbra_YMEmoticons.prototype._createPrefView=function(){
+return["<div class='ymemoticonsPrefDialog'>","<input id='yemoticons_enableInMail_div' type='checkbox'/>",this.getMessage("enableInMail"),"</div>"].join("")
+};
+Com_Zimbra_YMEmoticons.prototype._okPreferenceBtnListener=function(){
+this._preferenceDialog.popdown();
+var t=document.getElementById("yemoticons_enableInMail_div").checked;
+if(t!=this.enableInMail){
+this.setUserProperty("yemoticons_enableInMail",t,true);
+this.enableInMail=t;
+var e=t?this.getMessage("yahoo_emoticons_toaster_enabled"):this.getMessage("yahoo_emoticons_toaster_disabled");
+var o=[ZmToast.FADE_IN,ZmToast.PAUSE,ZmToast.FADE_OUT];
+appCtxt.getAppController().setStatusMsg(e,ZmStatusView.LEVEL_INFO,null,o)
+}};
+Com_Zimbra_YMEmoticons.REGEXP=/(>:D<|#:-S|O:-\)|<:-P|:-SS|<\):\)|:-\?\?|3:-O|:\(\|\)|@};-|\*\*==|\(~~\)|\*-:\)|\[-O<|:\)>-|\\:D\x2f|\^:\)\^|;;\)|:-\x2f|:\x22>|:-\*|=\(\(|:-O|B-\)|:-S|>:\)|:\(\(|:\)\)|\x2f:\)|=\)\)|:-B|:-c|:\)\]|~X\(|:-h|:-t|8->|I-\)|8-\||L-\)|:-&|:-\$|\[-\(|:O\)|8-}|\(:\||=P~|:-\?|#-o|=D>|@-\)|:\^o|:-w|:-<|>:P|:o3|%-\(|:@\)|~:>|%%-|~O\)|8-X|=:\)|>-\)|:-L|\$-\)|:-\x22|b-\(|\[-X|>:\x2f|;\)\)|:-@|:-j|\(\*\)|o->|o=>|o-\+|\(%\)|:\)|:\(|;\)|X\(|:>|:\||=;)/ig;
+Com_Zimbra_YMEmoticons.REGEXP_CASE_SENSITIVE=/(:D|:X|:P)/g;
+Com_Zimbra_YMEmoticons.SMILEYS={
+":)":{
+width:18,alt:"emoticon_happy",src:"/service/zimlet/com_zimbra_ymemoticons/img/1.gif",text:":)",regexp:":\\)",height:18}
+,":(":{
+width:18,alt:"emoticon_sad",src:"/service/zimlet/com_zimbra_ymemoticons/img/2.gif",text:":(",regexp:":\\(",height:18}
+,"(~~)":{
+width:17,alt:"emoticon_pumpkin",src:"/service/zimlet/com_zimbra_ymemoticons/img/56.gif",text:"(~~)",regexp:"\\(~~\\)",height:18}
+,"~o)":{
+width:18,alt:"emoticon_coffee",src:"/service/zimlet/com_zimbra_ymemoticons/img/57.gif",text:"~O)",regexp:"~O\\)",height:18}
+,':">':{
+width:18,alt:"emoticon_blushing",src:"/service/zimlet/com_zimbra_ymemoticons/img/9.gif",text:':">',regexp:":\\x22>",height:18}
+,"[-(":{
+width:18,alt:"emoticon_not_talking",src:"/service/zimlet/com_zimbra_ymemoticons/img/33.gif",text:"[-(",regexp:"\\[-\\(",height:18}
+,">:d<":{
+width:42,alt:"emoticon_big_hug",src:"/service/zimlet/com_zimbra_ymemoticons/img/6.gif",text:">:D<",regexp:">:D<",height:18}
+,"#-o":{
+width:24,alt:"emoticon_d_oh",src:"/service/zimlet/com_zimbra_ymemoticons/img/40.gif",text:"#-o",regexp:"#-o",height:18}
+,"[-x":{
+width:22,alt:"emoticon_shame_on_you",src:"/service/zimlet/com_zimbra_ymemoticons/img/68.gif",text:"[-X",regexp:"\\[-X",height:18}
+,":-t":{
+width:30,alt:"emoticon_time_out",src:"/service/zimlet/com_zimbra_ymemoticons/img/104.gif",text:":-t",regexp:":-t",height:18}
+,":(|)":{
+width:21,alt:"emoticon_monkey",src:"/service/zimlet/com_zimbra_ymemoticons/img/51.gif",text:":(|)",regexp:":\\(\\|\\)",height:18}
+,":o)":{
+width:28,alt:"emoticon_clown",src:"/service/zimlet/com_zimbra_ymemoticons/img/34.gif",text:":O)",regexp:":O\\)",height:18}
+,"i-)":{
+width:21,alt:"emoticon_sleepy",src:"/service/zimlet/com_zimbra_ymemoticons/img/28.gif",text:"I-)",regexp:"I-\\)",height:18}
+,";;)":{
+width:18,alt:"emoticon_batting_eyelashes",src:"/service/zimlet/com_zimbra_ymemoticons/img/5.gif",text:";;)",regexp:";;\\)",height:18}
+,":^o":{
+width:18,alt:"emoticon_liar",src:"/service/zimlet/com_zimbra_ymemoticons/img/44.gif",text:":^o",regexp:":\\^o",height:18}
+,"<:-p":{
+width:38,alt:"emoticon_party",src:"/service/zimlet/com_zimbra_ymemoticons/img/36.gif",text:"<:-P",regexp:"<:-P",height:18}
+,"x(":{
+width:34,alt:"emoticon_angry",src:"/service/zimlet/com_zimbra_ymemoticons/img/14.gif",text:"X(",regexp:"X\\(",height:18}
+,":-/":{
+width:20,alt:"emoticon_confused",src:"/service/zimlet/com_zimbra_ymemoticons/img/7.gif",text:":-/",regexp:":-\\x2f",height:18}
+,"#:-s":{
+width:34,alt:"emoticon_whew",src:"/service/zimlet/com_zimbra_ymemoticons/img/18.gif",text:"#:-S",regexp:"#:-S",height:18}
+,"8->":{
+width:23,alt:"emoticon_daydreaming",src:"/service/zimlet/com_zimbra_ymemoticons/img/105.gif",text:"8->",regexp:"8->",height:18}
+,":d":{
+width:18,alt:"emoticon_big_grin",src:"/service/zimlet/com_zimbra_ymemoticons/img/4.gif",text:":D",regexp:":D",height:18}
+,"\\:d/":{
+width:26,alt:"emoticon_dancing",src:"/service/zimlet/com_zimbra_ymemoticons/img/69.gif",text:"\\:D/",regexp:"\\\\:D\\x2f",height:18}
+,":-b":{
+width:24,alt:"emoticon_nerd",src:"/service/zimlet/com_zimbra_ymemoticons/img/26.gif",text:":-B",regexp:":-B",height:18}
+,":-@":{
+width:36,alt:"emoticon_chatterbox",src:"/service/zimlet/com_zimbra_ymemoticons/img/76.gif",text:":-@",regexp:":-@",height:18}
+,":-h":{
+width:28,alt:"emoticon_wave",src:"/service/zimlet/com_zimbra_ymemoticons/img/103.gif",text:":-h",regexp:":-h",height:18}
+,":-c":{
+width:28,alt:"emoticon_call_me",src:"/service/zimlet/com_zimbra_ymemoticons/img/101.gif",text:":-c",regexp:":-c",height:18}
+,"=p~":{
+width:18,alt:"emoticon_drooling",src:"/service/zimlet/com_zimbra_ymemoticons/img/38.gif",text:"=P~",regexp:"=P~",height:18}
+,"(:|":{
+width:18,alt:"emoticon_yawn",src:"/service/zimlet/com_zimbra_ymemoticons/img/37.gif",text:"(:|",regexp:"\\(:\\|",height:18}
+,":-o":{
+width:18,alt:"emoticon_surprise",src:"/service/zimlet/com_zimbra_ymemoticons/img/13.gif",text:":-O",regexp:":-O",height:18}
+,"o->":{
+width:18,alt:"emoticon_hiro",src:"/service/zimlet/com_zimbra_ymemoticons/img/72.gif",text:"o->",regexp:"o->",height:18}
+,":))":{
+width:18,alt:"emoticon_laughing",src:"/service/zimlet/com_zimbra_ymemoticons/img/21.gif",text:":))",regexp:":\\)\\)",height:18}
+,"/:)":{
+width:18,alt:"emoticon_raised_eyebrow",src:"/service/zimlet/com_zimbra_ymemoticons/img/23.gif",text:"/:)",regexp:"\\x2f:\\)",height:18}
+,"*-:)":{
+width:30,alt:"emoticon_idea",src:"/service/zimlet/com_zimbra_ymemoticons/img/58.gif",text:"*-:)",regexp:"\\*-:\\)",height:18}
+,":)]":{
+width:31,alt:"emoticon_on_the_phone",src:"/service/zimlet/com_zimbra_ymemoticons/img/100.gif",text:":)]",regexp:":\\)\\]",height:18}
+,":-ss":{
+width:36,alt:"emoticon_nailbiting",src:"/service/zimlet/com_zimbra_ymemoticons/img/42.gif",text:":-SS",regexp:":-SS",height:18}
+,"(%)":{
+width:18,alt:"emoticon_yin_yang",src:"/service/zimlet/com_zimbra_ymemoticons/img/75.gif",text:"(%)",regexp:"\\(%\\)",height:18}
+,":-*":{
+width:18,alt:"emoticon_kiss",src:"/service/zimlet/com_zimbra_ymemoticons/img/11.gif",text:":-*",regexp:":-\\*",height:18}
+,"~x(":{
+width:44,alt:"emoticon_at_wits_end",src:"/service/zimlet/com_zimbra_ymemoticons/img/102.gif",text:"~X(",regexp:"~X\\(",height:18}
+,"o=>":{
+width:18,alt:"emoticon_billy",src:"/service/zimlet/com_zimbra_ymemoticons/img/73.gif",text:"o=>",regexp:"o=>",height:18}
+,":-??":{
+width:40,alt:"emoticon_I_dont_know",src:"/service/zimlet/com_zimbra_ymemoticons/img/106.gif",text:":-??",regexp:":-\\?\\?",height:18}
+,"@-)":{
+width:18,alt:"emoticon_hypnotized",src:"/service/zimlet/com_zimbra_ymemoticons/img/43.gif",text:"@-)",regexp:"@-\\)",height:18}
+,"3:-o":{
+width:18,alt:"emoticon_cow",src:"/service/zimlet/com_zimbra_ymemoticons/img/50.gif",text:"3:-O",regexp:"3:-O",height:18}
+,"=d>":{
+width:18,alt:"emoticon_applause",src:"/service/zimlet/com_zimbra_ymemoticons/img/41.gif",text:"=D>",regexp:"=D>",height:18}
+,":-w":{
+width:23,alt:"emoticon_waiting",src:"/service/zimlet/com_zimbra_ymemoticons/img/45.gif",text:":-w",regexp:":-w",height:18}
+,":x":{
+width:18,alt:"emoticon_love_struck",src:"/service/zimlet/com_zimbra_ymemoticons/img/8.gif",text:":x",regexp:":x",height:18}
+,":-$":{
+width:18,alt:"emoticon_dont_tell_anyone",src:"/service/zimlet/com_zimbra_ymemoticons/img/32.gif",text:":-$",regexp:":-\\$",height:18}
+,"~:>":{
+width:18,alt:"emoticon_chicken",src:"/service/zimlet/com_zimbra_ymemoticons/img/52.gif",text:"~:>",regexp:"~:>",height:18}
+,"=:)":{
+width:20,alt:"emoticon_bug",src:"/service/zimlet/com_zimbra_ymemoticons/img/60.gif",text:"=:)",regexp:"=:\\)",height:18}
+,"(*)":{
+width:18,alt:"emoticon_star",src:"/service/zimlet/com_zimbra_ymemoticons/img/79.gif",text:"(*)",regexp:"\\(\\*\\)",height:18}
+,":|":{
+width:18,alt:"emoticon_straight_face",src:"/service/zimlet/com_zimbra_ymemoticons/img/22.gif",text:":|",regexp:":\\|",height:18}
+,":((":{
+width:22,alt:"emoticon_crying",src:"/service/zimlet/com_zimbra_ymemoticons/img/20.gif",text:":((",regexp:":\\(\\(",height:18}
+,"8-x":{
+width:18,alt:"emoticon_skull",src:"/service/zimlet/com_zimbra_ymemoticons/img/59.gif",text:"8-X",regexp:"8-X",height:18}
+,"o:-)":{
+width:30,alt:"emoticon_angel",src:"/service/zimlet/com_zimbra_ymemoticons/img/25.gif",text:"O:-)",regexp:"O:-\\)",height:18}
+,">:p":{
+width:18,alt:"emoticon_phbbbbt",src:"/service/zimlet/com_zimbra_ymemoticons/img/47.gif",text:">:P",regexp:">:P",height:18}
+,">-)":{
+width:18,alt:"emoticon_alien",src:"/service/zimlet/com_zimbra_ymemoticons/img/61.gif",text:">-)",regexp:">-\\)",height:18}
+,"=((":{
+width:18,alt:"emoticon_broken_heart",src:"/service/zimlet/com_zimbra_ymemoticons/img/12.gif",text:"=((",regexp:"=\\(\\(",height:18}
+,"l-)":{
+width:24,alt:"emoticon_loser",src:"/service/zimlet/com_zimbra_ymemoticons/img/30.gif",text:"L-)",regexp:"L-\\)",height:18}
+,":@)":{
+width:18,alt:"emoticon_pig",src:"/service/zimlet/com_zimbra_ymemoticons/img/49.gif",text:":@)",regexp:":@\\)",height:18}
+,">:/":{
+width:23,alt:"emoticon_bring_it_on",src:"/service/zimlet/com_zimbra_ymemoticons/img/70.gif",text:">:/",regexp:">:\\x2f",height:18}
+,"b-(":{
+width:18,alt:"emoticon_feeling_beat_up",src:"/service/zimlet/com_zimbra_ymemoticons/img/66.gif",text:"b-(",regexp:"b-\\(",height:18}
+,"$-)":{
+width:18,alt:"emoticon_money_eyes",src:"/service/zimlet/com_zimbra_ymemoticons/img/64.gif",text:"$-)",regexp:"\\$-\\)",height:18}
+,":-?":{
+width:18,alt:"emoticon_thinking",src:"/service/zimlet/com_zimbra_ymemoticons/img/39.gif",text:":-?",regexp:":-\\?",height:18}
+,":)>-":{
+width:22,alt:"emoticon_peace_sign",src:"/service/zimlet/com_zimbra_ymemoticons/img/67.gif",text:":)>-",regexp:":\\)>-",height:18}
+,":-j":{
+width:26,alt:"emoticon_oh_go_on",src:"/service/zimlet/com_zimbra_ymemoticons/img/78.gif",text:":-j",regexp:":-j",height:18}
+,"%%-":{
+width:18,alt:"emoticon_good_luck",src:"/service/zimlet/com_zimbra_ymemoticons/img/54.gif",text:"%%-",regexp:"%%-",height:18}
+,"%-(":{
+width:52,alt:"emoticon_not_listening",src:"/service/zimlet/com_zimbra_ymemoticons/img/107.gif",text:"%-(",regexp:"%-\\(",height:18}
+,":p":{
+width:18,alt:"emoticon_tongue",src:"/service/zimlet/com_zimbra_ymemoticons/img/10.gif",text:":P",regexp:":P",height:18}
+,"^:)^":{
+width:32,alt:"emoticon_not_worthy",src:"/service/zimlet/com_zimbra_ymemoticons/img/77.gif",text:"^:)^",regexp:"\\^:\\)\\^",height:18}
+,':-"':{
+width:22,alt:"emoticon_whistling",src:"/service/zimlet/com_zimbra_ymemoticons/img/65.gif",text:':-"',regexp:":-\\x22",height:18}
+,":-<":{
+width:24,alt:"emoticon_sigh",src:"/service/zimlet/com_zimbra_ymemoticons/img/46.gif",text:":-<",regexp:":-<",height:18}
+,":o3":{
+width:31,alt:"emoticon_puppy_dog_eyes",src:"/service/zimlet/com_zimbra_ymemoticons/img/108.gif",text:":o3",regexp:":o3",height:18}
+,">:)":{
+width:18,alt:"emoticon_devil",src:"/service/zimlet/com_zimbra_ymemoticons/img/19.gif",text:">:)",regexp:">:\\)",height:18}
+,"=;":{
+width:18,alt:"emoticon_talk_to_the_hand",src:"/service/zimlet/com_zimbra_ymemoticons/img/27.gif",text:"=;",regexp:"=;",height:18}
+,"8-|":{
+width:18,alt:"emoticon_rolling_eyes",src:"/service/zimlet/com_zimbra_ymemoticons/img/29.gif",text:"8-|",regexp:"8-\\|",height:18}
+,"**==":{
+width:25,alt:"emoticon_flag",src:"/service/zimlet/com_zimbra_ymemoticons/img/55.gif",text:"**==",regexp:"\\*\\*==",height:18}
+,"o-+":{
+width:18,alt:"emoticon_april",src:"/service/zimlet/com_zimbra_ymemoticons/img/74.gif",text:"o-+",regexp:"o-+",height:18}
+,"8-}":{
+width:24,alt:"emoticon_silly",src:"/service/zimlet/com_zimbra_ymemoticons/img/35.gif",text:"8-}",regexp:"8-}",height:18}
+,"=))":{
+width:30,alt:"emoticon_rolling_on_the_floor",src:"/service/zimlet/com_zimbra_ymemoticons/img/24.gif",text:"=))",regexp:"=\\)\\)",height:18}
+,":-l":{
+width:18,alt:"emoticon_frustrated",src:"/service/zimlet/com_zimbra_ymemoticons/img/62.gif",text:":-L",regexp:":-L",height:18}
+,"b-)":{
+width:18,alt:"emoticon_cool",src:"/service/zimlet/com_zimbra_ymemoticons/img/16.gif",text:"B-)",regexp:"B-\\)",height:18}
+,";)":{
+width:18,alt:"emoticon_winking",src:"/service/zimlet/com_zimbra_ymemoticons/img/3.gif",text:";)",regexp:";\\)",height:18}
+,":>":{
+width:18,alt:"emoticon_smug",src:"/service/zimlet/com_zimbra_ymemoticons/img/15.gif",text:":>",regexp:":>",height:18}
+,":-&":{
+width:18,alt:"emoticon_sick",src:"/service/zimlet/com_zimbra_ymemoticons/img/31.gif",text:":-&",regexp:":-&",height:18}
+,"<):)":{
+width:18,alt:"emoticon_cowboy",src:"/service/zimlet/com_zimbra_ymemoticons/img/48.gif",text:"<):)",regexp:"<\\):\\)",height:18}
+,":-s":{
+width:18,alt:"emoticon_worried",src:"/service/zimlet/com_zimbra_ymemoticons/img/17.gif",text:":-S",regexp:":-S",height:18}
+,";))":{
+width:18,alt:"emoticon_hee_hee",src:"/service/zimlet/com_zimbra_ymemoticons/img/71.gif",text:";))",regexp:";\\)\\)",height:18}
+,"[-o<":{
+width:18,alt:"emoticon_praying",src:"/service/zimlet/com_zimbra_ymemoticons/img/63.gif",text:"[-O<",regexp:"\\[-O<",height:18}
+,"@};-":{
+width:18,alt:"emoticon_rose",src:"/service/zimlet/com_zimbra_ymemoticons/img/53.gif",text:"@};-",regexp:"@};-",height:18}};
+YMEmoticonsPickerButton=function(t,e){
+if(arguments.length==0){
+return
+}
+t.actionTiming=DwtButton.ACTION_MOUSEUP;
+DwtToolBarButton.call(this,t);
+this.setEmoticon();
+if(e&&e==true){
+this.setMenu(new AjxCallback(this,this._createMenu),false,false,false)
+}else{
+this.setMenu(new AjxCallback(this,this._createMenu),false,false,true)
+}};
+YMEmoticonsPickerButton.prototype=new DwtToolBarButton;
+YMEmoticonsPickerButton.prototype.constructor=YMEmoticonsPickerButton;
+YMEmoticonsPickerButton.prototype._createMenu=function(){
+var e=new DwtMenu({
+parent:this,style:DwtMenu.GENERIC_WIDGET_STYLE}
+);
+this._picker=new YMEmoticonsPicker(e,null,null);
+this._picker.addSelectionListener(new AjxListener(this,this._smileyPicked));
+return e
+};
+YMEmoticonsPickerButton.prototype.setEmoticon=function(t){
+var e=t?YMEmoticonsPicker.SMILEYS[t]:YMEmoticonsPicker.getDefaultSmiley();
+if(e){
+this._smileyButtonDiv.src=e.src;
+this._smiley=e
+}};
+YMEmoticonsPickerButton.prototype._createHtmlFromTemplate=function(t,o){
+DwtButton.prototype._createHtmlFromTemplate.call(this,t,o);
+var n=Dwt.getNextId();
+var e="<div unselectable><img width='18' src='' id='"+n+"_smiley'></div>";
+this.setText(e);
+this._smileyButtonDiv=document.getElementById(n+"_smiley");
+delete n
+};
+YMEmoticonsPickerButton.prototype.getSmiley=function(e){
+return this._picker.getSmiley(e)
+};
+YMEmoticonsPickerButton.prototype.getSelectedSmiley=function(){
+return this._smiley
+};
+YMEmoticonsPickerButton.prototype._smileyPicked=function(e){
+var o=e.detail;
+this.setEmoticon(o);
+if(this.isListenerRegistered(DwtEvent.SELECTION)){
+var t=DwtShell.selectionEvent;
+t.item=this;
+this.notifyListeners(DwtEvent.SELECTION,t)
+}};
+YMEmoticonsPicker=function(o,t,e){
+if(arguments.length==0){
+return
+}
+t=t||"DwtColorPicker";
+DwtControl.call(this,{
+parent:o,className:t,posStyle:e}
+);
+this._createEmoticonsPicker(o)
+};
+YMEmoticonsPicker.prototype=new DwtControl;
+YMEmoticonsPicker.prototype.constructor=YMEmoticonsPicker;
+YMEmoticonsPicker.SMILEYS=Com_Zimbra_YMEmoticons.SMILEYS;
+YMEmoticonsPicker.getDefaultSmiley=function(){
+for(var e in YMEmoticonsPicker.SMILEYS){
+return YMEmoticonsPicker.SMILEYS[e]
+}
+return null
+};
+YMEmoticonsPicker.prototype.getDefaultSmiley=YMEmoticonsPicker.getDefaultSmiley;
+YMEmoticonsPicker.prototype._createEmoticonsPicker=function(e){
+this._createEmoticonsTable();
+this._registerHandlers()
+};
+YMEmoticonsPicker.prototype.addSelectionListener=function(e){
+this.addListener(DwtEvent.SELECTION,e)
+};
+YMEmoticonsPicker.prototype.removeSelectionListener=function(e){
+this.removeListener(DwtEvent.SELECTION,e)
+};
+YMEmoticonsPicker.prototype.dispose=function(){
+if(this._disposed){
+return
+}
+Dwt.disassociateElementFromObject(this.getHtmlElement().firstChild,this);
+DwtControl.prototype.dispose.call(this)
+};
+YMEmoticonsPicker.prototype.getSmiley=function(e){
+return YMEmoticonsPicker.SMILEYS[e]
+};
+YMEmoticonsPicker.EMOTICONS_PER_ROW=11;
+YMEmoticonsPicker.prototype._createEmoticonsTable=function(){
+var h=0;
+var n=[];
+var e=0;
+var s=0;
+var l=0;
+var t=0;
+var c=0;
+for(var o in YMEmoticonsPicker.SMILEYS){
+if(e!=0&&!(e%YMEmoticonsPicker.EMOTICONS_PER_ROW)){
+n[h++]="</tr><tr>";
+if(s>l){
+l=s
+}
+s=0
+}
+t=YMEmoticonsPicker.SMILEYS[o].width;
+c=YMEmoticonsPicker.SMILEYS[o].height;
+n[h++]=['<td style=\'background-color:#FFFFFF;\' align="center" valign="middle" id=\'',o,"' >"].join("");
+n[h++]=["<img  height='",c,"' width='",t,"' src='",YMEmoticonsPicker.SMILEYS[o].src,"'","  title='",YMEmoticonsPicker.SMILEYS[o].alt,"  ",YMEmoticonsPicker.SMILEYS[o].text,"'","  />"].join("");
+n[h++]="</td>";
+e++;
+s=s+t
+}
+n[h++]="</table>";
+var r=["<table  cellpadding='2' cellspacing='3' border='0' align='center' width='",l,"px'><tr>"].join("");
+this.getHtmlElement().innerHTML=[r,n.join("")].join("");
+if(AjxEnv.isFirefox1_5up&&!AjxEnv.isFirefox3up){
+this.setSize("480px",Dwt.DEFAULT)
+}};
+YMEmoticonsPicker.prototype._registerHandlers=function(){
+var r=this.getHtmlElement().firstChild;
+Dwt.associateElementWithObject(r,this);
+var h=r.rows;
+var l=h.length;
+for(var n=0;
+n<l;
+n++){
+var o=h[n].cells;
+var s=o.length;
+for(var t=0;
+t<s;
+t++){
+var e=o[t];
+Dwt.setHandler(e,DwtEvent.ONMOUSEDOWN,YMEmoticonsPicker._mouseDownHdlr);
+Dwt.setHandler(e,DwtEvent.ONMOUSEUP,YMEmoticonsPicker._mouseUpHdlr)
+}}};
+YMEmoticonsPicker._mouseDownHdlr=function(t){
+var e=DwtShell.mouseEvent;
+e.setFromDhtmlEvent(t,true);
+var o=e.target;
+if(o.nodeName.toLowerCase()=="img"){
+o=o.parentNode
+}
+e.dwtObj._downTdId=o.id;
+e._stopPropagation=true;
+e._returnValue=false;
+e.setToDhtmlEvent(t);
+return false
+};
+YMEmoticonsPicker._mouseUpHdlr=function(o){
+var t=DwtShell.mouseEvent;
+t.setFromDhtmlEvent(o,true);
+var r=t.dwtObj;
+var s=t.target;
+if(s.nodeName.toLowerCase()=="img"){
+s=s.parentNode
+}
+if(r._downTdId==s.id){
+var e=YMEmoticonsPicker.SMILEYS[s.id];
+if(e){
+if(r.isListenerRegistered(DwtEvent.SELECTION)){
+var n=DwtShell.selectionEvent;
+DwtUiEvent.copy(n,t);
+n.item=r;
+n.detail=s.id;
+r.notifyListeners(DwtEvent.SELECTION,n)
+}}
+if(r.parent instanceof DwtMenu){
+DwtMenu.closeActiveMenu()
+}}
+t._stopPropagation=true;
+t._returnValue=false;
+t.setToDhtmlEvent(o);
+return false
+};
