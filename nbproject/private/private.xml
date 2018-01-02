@@ -9,7 +9,6 @@
             <file>file:/Users/gualtierolugato/project23Nov/web/css/bootstrap-grid.css</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config_prod.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/package.json</file>
-            <file>file:/Users/gualtierolugato/project23Nov/Rakefile</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config_dev.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/bin/console</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/email.txt.twig</file>
@@ -23,7 +22,6 @@
             <file>file:/Users/gualtierolugato/project23Nov/web/css/bootstrap_bootstrap_1.css</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/parameters.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/AppKernel.php</file>
-            <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Security/login.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Controller/BlogBundle.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/FosUserBundle/views/Registration/confirmed.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/.htaccess</file>
@@ -46,14 +44,12 @@
             <file>file:/Users/gualtierolugato/project23Nov/app/config/config.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Repository/PostRepository.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/.gitignore</file>
-            <file>file:/Users/gualtierolugato/project23Nov/web/images/images.jpeg</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/routing.yml</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/default/index.html.twig</file>
             <file>file:/Users/gualtierolugato/project23Nov/web/app_dev.php</file>
             <file>file:/Users/gualtierolugato/project23Nov/composer.json</file>
             <file>file:/Users/gualtierolugato/project23Nov/web/apple-touch-icon.png</file>
             <file>file:/Users/gualtierolugato/project23Nov/src/AppBundle/Entity/User.php</file>
-            <file>file:/Users/gualtierolugato/project23Nov/yarn.lock</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/config/parameters.yml.dist</file>
             <file>file:/Users/gualtierolugato/project23Nov/app/Resources/views/default/add.html.twig</file>
         </group>
